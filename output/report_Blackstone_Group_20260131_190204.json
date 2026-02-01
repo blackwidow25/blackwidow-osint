@@ -1,0 +1,1500 @@
+{
+  "target": "Blackstone Group",
+  "target_type": "company",
+  "research_date": "2026-01-31T19:01:43.336894",
+  "state": "DE",
+  "data_sources": {
+    "sec_edgar": {
+      "company_info": {},
+      "cik": null,
+      "filings": [],
+      "insider_transactions": [],
+      "beneficial_owners": [],
+      "enforcement_actions": [],
+      "sec_correspondence": []
+    },
+    "opencorporates": {
+      "matches": [],
+      "total_count": 0,
+      "best_match": null
+    },
+    "fec_donations": {
+      "total_contributions": 100,
+      "total_amount": 599959.6,
+      "unique_donors": 34,
+      "contributions_by_party": {
+        "null": {
+          "count": 49,
+          "amount": 452758.1
+        },
+        "REP": {
+          "count": 26,
+          "amount": 128000.0
+        },
+        "DEM": {
+          "count": 11,
+          "amount": 19089.0
+        },
+        "UNK": {
+          "count": 14,
+          "amount": 112.5
+        }
+      },
+      "top_donors": [
+        {
+          "name": "JAMES, HAMILTON E.",
+          "total_amount": 250000.0,
+          "contribution_count": 1,
+          "occupation": "EXECUTIVE VICE CHAIRMAN",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "SCHWARZMAN, STEPHEN A. MR.",
+          "total_amount": 109900.0,
+          "contribution_count": 20,
+          "occupation": "CEO",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "HENNER, DENNIS",
+          "total_amount": 50000.0,
+          "contribution_count": 1,
+          "occupation": "SENIOR ADVISOR",
+          "city": "PACIFICA",
+          "state": "CA"
+        },
+        {
+          "name": "SCHWARZMAN, STEPHEN A.",
+          "total_amount": 34000.0,
+          "contribution_count": 8,
+          "occupation": "CHAIRMAN",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "CHAE, MICHAEL",
+          "total_amount": 28000.0,
+          "contribution_count": 6,
+          "occupation": "CHIEF FINANCIAL OFFICER",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "GOODMAN, BENNETT J. MR.",
+          "total_amount": 25000.0,
+          "contribution_count": 1,
+          "occupation": "C.E.O.",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "SCHWARZMAN, STEPHEN",
+          "total_amount": 11500.0,
+          "contribution_count": 3,
+          "occupation": "FINANCIAL SERVICES PROFESSIONAL",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "GRAY, JONATHAN D.",
+          "total_amount": 10000.0,
+          "contribution_count": 3,
+          "occupation": "MANAGING DIRECTOR OF REAL ESTATE",
+          "city": "NEW YORK",
+          "state": "NY"
+        },
+        {
+          "name": "BERMAN, WAYNE",
+          "total_amount": 9700.0,
+          "contribution_count": 3,
+          "occupation": "GOVERNMENT RELATIONS",
+          "city": "WASHINGTON",
+          "state": "DC"
+        },
+        {
+          "name": "ABRAHAMS, RIAD",
+          "total_amount": 7000.0,
+          "contribution_count": 2,
+          "occupation": "SENIOR MANAGING DIRECTOR",
+          "city": "NEW MILFORD",
+          "state": "CT"
+        }
+      ],
+      "recent_contributions": [
+        {
+          "donor": "FOLEY, DAVID",
+          "amount": 5000.0,
+          "date": "2025-11-10",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "KHAN, BILAL",
+          "amount": 5000.0,
+          "date": "2025-10-30",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "SEPASSI, DARIUS",
+          "amount": 5000.0,
+          "date": "2025-10-30",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "SCHWARZMAN, STEPHEN",
+          "amount": 5000.0,
+          "date": "2025-10-28",
+          "recipient": "MANAGED FUNDS ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "ONEGLIA, DANIEL",
+          "amount": 5000.0,
+          "date": "2025-10-23",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "MUNFA, JOHN PAUL",
+          "amount": 5000.0,
+          "date": "2025-10-19",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "NIGAM, ATISH",
+          "amount": 2500.0,
+          "date": "2025-10-19",
+          "recipient": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "BERMAN, WAYNE",
+          "amount": 3500.0,
+          "date": "2025-09-30",
+          "recipient": "COLLINS FOR SENATOR",
+          "party": "REP"
+        },
+        {
+          "donor": "GRAY, JONATHAN",
+          "amount": 5000.0,
+          "date": "2025-09-30",
+          "recipient": "MANAGED FUNDS ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "party": null
+        },
+        {
+          "donor": "HASHIM, ASHREF",
+          "amount": 500.0,
+          "date": "2025-09-04",
+          "recipient": "RO FOR CONGRESS INC",
+          "party": "DEM"
+        }
+      ],
+      "top_recipients": [
+        {
+          "name": "SMP",
+          "party": null,
+          "total_amount": 250000.0
+        },
+        {
+          "name": "HMP",
+          "party": null,
+          "total_amount": 50000.0
+        },
+        {
+          "name": "NRCC",
+          "party": "REP",
+          "total_amount": 46800.0
+        },
+        {
+          "name": "AMERICAN INVESTMENT COUNCIL POLITICAL ACTION COMMITTEE",
+          "party": null,
+          "total_amount": 27500.0
+        },
+        {
+          "name": "NRSC",
+          "party": "REP",
+          "total_amount": 25000.0
+        },
+        {
+          "name": "TEAM TODD",
+          "party": null,
+          "total_amount": 19000.0
+        },
+        {
+          "name": "FRIENDS OF TODD YOUNG, INC.",
+          "party": "REP",
+          "total_amount": 14000.0
+        },
+        {
+          "name": "TEAM MARSHALL II",
+          "party": null,
+          "total_amount": 12000.0
+        },
+        {
+          "name": "MANAGED FUNDS ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "party": null,
+          "total_amount": 10000.0
+        },
+        {
+          "name": "ACTBLUE",
+          "party": null,
+          "total_amount": 9672.0
+        }
+      ]
+    },
+    "court_records": [],
+    "ucc_filings": [
+      {
+        "state": "DE",
+        "search_url": "https://icis.corp.delaware.gov/UCCSearch/",
+        "debtor_name": "Blackstone Group",
+        "status": "manual_search_required",
+        "what_to_look_for": [
+          "Active UCC-1 filings (original financing statements)",
+          "UCC-3 amendments and continuations",
+          "Secured party names (creditors)",
+          "Collateral descriptions",
+          "Filing dates",
+          "Termination status"
+        ]
+      }
+    ],
+    "news_search": {
+      "total_articles": 100,
+      "articles": [
+        {
+          "source": "GDELT",
+          "title": "\u4f20OpenAI\u4e0e\u94f6\u884c\u5546\u8ba8Q4\u4e0a\u5e02 \u9ad8\u7ba1\u62c5\u5fe7\u7ade\u4e89\u5bf9\u624bAnthropic\u62a2\u5148IPO _ \u65b0\u80a1\u8981\u95fb _ \u65b0\u80a1 _ \u4e2d\u91d1\u5728\u7ebf",
+          "url": "http://xg.stock.cnfol.com/xinguyaowen/20260130/31987539.shtml",
+          "domain": "xg.stock.cnfol.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Aon Reports Fourth - Quarter and Full - Year 2025 Results",
+          "url": "http://www.prnewswire.com/news-releases/aon-reports-fourth-quarter-and-full-year-2025-results-302674595.html",
+          "domain": "prnewswire.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u83ef\u723e\u8857\u65e5\u5831 \uff1a \u4eba\u5de5\u667a\u6167\u65b0\u5143\u5e74 OpenAI\u8a08\u5283\u7b2c4\u5b63IPO | \u8ca1\u7d93 | \u4e09\u7acb\u65b0\u805e\u7db2 SETN . COM",
+          "url": "https://www.setn.com/News.aspx?NewsID=1788673",
+          "domain": "setn.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://attach.setn.com/newsimages/2026/01/08/5412624-PH.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u6e2f\u80a1\u6536\u76d8 | \u6052\u751f\u6307\u6570\u4e00\u6708\u5927\u6da8\u8fd17 % AI\u4e0e\u6d88\u8d39\u5f15\u9886\u7ed3\u6784\u6027\u884c\u60c5",
+          "url": "https://finance.sina.com.cn/jjxw/2026-01-30/doc-inhkaqpm0595898.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/default/feedbackpics/transform/116/w550h366/20180418/o6Lb-fzihnep5208756.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "OpenAI\u8ba1\u5212\u5728\u7b2c\u56db\u5b63\u5ea6\u8fdb\u884cIPO \uff0c \u529b\u56fe\u62a2\u5728Anthropic\u4e4b\u524d\u4e0a\u5e02",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-30/doc-inhkakfh0215267.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3\u96c6\u56e2\u5c06\u6210\u65b0\u4e16\u754c\u53d1\u5c55\u6700\u5927\u80a1\u4e1c \uff1f \u63a7\u80a1\u80a1\u4e1c\u5468\u5927\u798f \uff1a \u83b7\u82e5\u5e72\u6f5c\u5728\u6295\u8d44\u8005\u63a5\u6d3d \u51e4\u51f0\u7f51\u623f\u4ea7\u6df1\u5733",
+          "url": "https://sz.house.ifeng.com/news/2026_01_30-57288521_0.shtml",
+          "domain": "sz.house.ifeng.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u50b3\u9ed1\u77f3\u64ec\u5165\u4e3b \u65b0\u4e16\u754c\u78ba\u8a8d\u7372\u6d3d\u8cfc \u80a1\u50f9\u66fe\u98c6\u8fd112 % ",
+          "url": "https://www.hkcd.com/hkcdweb/content/2026/01/30/content_8737942.html",
+          "domain": "hkcd.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u50b3\u63a7\u80a1\u6b0a\u51fa\u8b93\u9ed1\u77f3 \u65b0\u4e16\u754c\u56de\u61c9 \uff1a \u6709\u6f5b\u5728\u6295\u8cc7\u8005\u63a5\u6d3d | \u793e\u6703",
+          "url": "https://www.hkcna.hk/docDetail.jsp?id=101230164&channel=4372",
+          "domain": "hkcna.hk",
+          "language": "Chinese",
+          "country": "Hong Kong",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u83ef\u723e\u8857\u65e5\u5831 \uff1a \u4eba\u5de5\u667a\u6167\u65b0\u5143\u5e74 OpenAI\u8a08\u5283\u7b2c4\u5b63IPO | \u570b\u969b",
+          "url": "https://www.cna.com.tw/news/aopl/202601300044.aspx",
+          "domain": "cna.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u83ef\u723e\u8857\u65e5\u5831 \uff1a \u4eba\u5de5\u667a\u6167\u65b0\u5143\u5e74 OpenAI\u8a08\u5283\u7b2c4\u5b63IPO | \u5168\u7403\u8ca1\u7d93 | \u5168\u7403",
+          "url": "https://udn.com/news/story/6811/9298189",
+          "domain": "udn.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://udn.com/static/img/UDN_BABY.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "OpenAI\u4f20Q4\u62a2\u8dd1IPO \uff01 \u4e0e\u52b2\u654cAnthropic\u5f00\u542f\u4e0a\u5e02  \u751f\u6b7b\u65f6\u901f  |openai|ipo|\u534e\u5c14\u8857|\u9a6c\u65af\u514b",
+          "url": "https://www.163.com/tech/article/KKGPQV5H00097U7T.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5916\u8d44 \uff0c \u6b63\u5728\u75af\u72c2\u4ece\u9b54\u90fd\u64a4\u79bb \uff01 ",
+          "url": "https://www.163.com/dy/article/KKGO2RDP05390F92.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3\u96c6\u56e2\u5c06\u6210\u65b0\u4e16\u754c\u53d1\u5c55\u6700\u5927\u80a1\u4e1c \uff1f \u63a7\u80a1\u80a1\u4e1c\u5468\u5927\u798f \uff1a \u83b7\u82e5\u5e72\u6f5c\u5728\u6295\u8d44\u8005\u63a5\u6d3d",
+          "url": "https://www.163.com/dy/article/KKFPHETL0514R9P4.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f6d\u535a \uff1a \u9ed1\u77f3\u64ec\u5165\u4e3b \u65b0\u4e16\u754c\u7a31\u6bcd\u4f01\u63a5\u7372\u6d3d\u8cfc - 20260130 - \u7d93\u6fdf",
+          "url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/article/20260130/s00004/1769705372457/%E5%BD%AD%E5%8D%9A-%E9%BB%91%E7%9F%B3%E6%93%AC%E5%85%A5%E4%B8%BB-%E6%96%B0%E4%B8%96%E7%95%8C%E7%A8%B1%E6%AF%8D%E4%BC%81%E6%8E%A5%E7%8D%B2%E6%B4%BD%E8%B3%BC",
+          "domain": "news.mingpao.com",
+          "language": "Chinese",
+          "country": "Hong Kong",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u6e2f\u80a1\u591c\u671f+ADR+\u5317\u6c34\uff5c\u591c\u671f\u6536\u5e02\u8dcc226\u9ede \u963f\u91cc\u7f8e\u80a1\u4f4e\u6e2f2 %\uff08 \u4e0d\u65b7\u66f4\u65b0 \uff09 ",
+          "url": "https://inews.hket.com/article/4076589/?mtc=80002",
+          "domain": "inews.hket.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://static04.hket.com/res/v3/image/content/4075000/4076589/ADR_1200.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3\u96c6\u56e2\u5c06\u6210\u65b0\u4e16\u754c\u53d1\u5c55\u6700\u5927\u80a1\u4e1c \uff1f \u63a7\u80a1\u80a1\u4e1c\u5468\u5927\u798f \uff1a \u83b7\u82e5\u5e72\u6f5c\u5728\u6295\u8d44\u8005\u63a5\u6d3d",
+          "url": "https://baijiahao.baidu.com/s?id=1855663675445165167",
+          "domain": "baijiahao.baidu.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f95\u5361\u76f8\u673a \uff0c \u8981\u5356\u4e86|\u54c8\u82cf|\u955c\u5934|\u5c3c\u5eb7|\u4f73\u80fd",
+          "url": "https://www.163.com/dy/article/KKEHVH2H05199LET.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u6295\u8d44\u754c24h | \u9ec4\u4ec1\u52cb\u73b0\u8eab\u6df1\u5733 \uff1b \u9e23\u9e23\u5f88\u5fd9900\u4ebf \uff0c \u7f14\u9020\u4e2d\u56fd\u6700\u5927\u96f6\u98df\u5e97IPO \uff1b \u9a6c\u4e91\u6700\u65b0\u53d1\u58f0",
+          "url": "https://news.pedaily.cn/202601/560513.shtml",
+          "domain": "news.pedaily.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://pic2.pedaily.cn/21/202109/20210902@482868.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u65e9\u62a5\u4e28\u7f8e\u8054\u50a8\u7ef4\u6301\u5229\u7387\u4e0d\u53d8 \uff0c \u9c8d\u5a01\u5c14\u53d1\u8a00\u504f\u9e70 \uff1b \u7279\u6717\u666e\u5a01\u80c1\u518d\u6b21\u6253\u51fb\u4f0a\u6717 \uff0c \u91d1\u94f6\u65b0\u9ad8\u540e\u8df3\u6c34 \uff1b \u5b58\u50a8\u6982\u5ff5\u98d9\u5347 \uff0c \u5e0c\u6377\u6da8\u8d8519 %\uff1b \u8425\u6536\u6307\u5f15\u4eae\u773c \uff0c Meta\u76d8\u540e\u6da8\u8d857 % _ \u4e1c\u65b9\u8d22\u5bcc\u7f51",
+          "url": "https://finance.eastmoney.com/a/202601293634410855.html",
+          "domain": "finance.eastmoney.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Holding ( s ) in Company | Company Announcement",
+          "url": "https://www.investegate.co.uk/announcement/rns/jardine-matheson-holdings-ltd-singapore-reg---jar/holding-s-in-company/9391646",
+          "domain": "investegate.co.uk",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "2026\u623f\u5e02\u5927\u6d17\u724c \uff01 \u6700\u5f37\u623f\u7522\u80a1\u540d\u55ae\u51fa\u7210 \uff1a \u7269\u6d41\u5de8\u4eba\u8207\u91ab\u7642REITs\u6210\u5e02\u5834 \u300c \u5438\u91d1\u9ed1\u6d1e \u300d ",
+          "url": "https://n.yam.com/Article/20260128877654",
+          "domain": "n.yam.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://image.sunmedia.tw/banners/1a79855d-ab76-41b0-ab72-19d87b2c6669.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u767e\u5e74\u5f95\u5361\u6446\u4e0a\u8d27\u67b6 \uff0c \u5c0f\u7c73\u7684\u5706\u68a6\u65f6\u523b\u6765\u4e86 - \u4e1a\u754c\u52a8\u6001 - ITBear\u79d1\u6280\u8d44\u8baf",
+          "url": "https://www.itbear.com.cn/html/2026-01/1113970.html",
+          "domain": "itbear.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Blackstone plans Rs 10 , 000 - crore digital infra hub in Chennai",
+          "url": "https://economictimes.indiatimes.com/tech/technology/blackstone-plans-rs-10000-crore-digital-infra-hub-in-chennai/articleshow/127648141.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1017142,resizemode-75,msid-127648141/tech/technology/blackstone-plans-rs-10000-crore-digital-infra-hub-in-chennai.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Report : San Diego could save a ton of money if it relocates City Hall",
+          "url": "https://www.sandiegouniontribune.com/2026/01/27/report-san-diego-could-save-a-ton-of-money-if-it-relocates-city-hall/",
+          "domain": "sandiegouniontribune.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://www.sandiegouniontribune.com/wp-content/uploads/2026/01/SUT-L-GOLDENHALL-REDEV-0121-013.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Leica\u76f8\u6a5f\uff5c\u76f8\u6a5f\u754c \u300c \u8056\u676f \u300d \u5fa0\u5361 \u50b3\u4e2d\u8cc7\u57fa\u91d1\u6709\u610f\u7af6\u6295",
+          "url": "https://inews.hket.com/article/4075587/Leica%E7%9B%B8%E6%A9%9F%EF%BD%9C%E7%9B%B8%E6%A9%9F%E7%95%8C%E3%80%8C%E8%81%96%E6%9D%AF%E3%80%8D%E5%BE%A0%E5%8D%A1%20%E5%82%B3%E4%B8%AD%E8%B3%87%E5%9F%BA%E9%87%91%E6%9C%89%E6%84%8F%E7%AB%B6%E6%8A%95?mtc=80010",
+          "domain": "inews.hket.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260127T2",
+          "tone": 0,
+          "socialimage": "https://static04.hket.com/res/v3/image/content/4075000/4075587/AFP20251001_324382-01-02_1_1200.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3 \uff0c \u5f00\u59cb\u62db\u4eba _ \u6295\u8d44\u754c",
+          "url": "https://news.pedaily.cn/202601/560457.shtml",
+          "domain": "news.pedaily.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://pic2.pedaily.cn/26/202601/20260127@1118644.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3 \uff0c \u5f00\u59cb\u62db\u4eba|\u9ed1\u77f3|\u7f8e\u5143 _ \u65b0\u6d6a\u79d1\u6280 _ \u65b0\u6d6a\u7f51",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-01-27/doc-inhitszt7554124.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "CityWatch LA - Corporate Landlords Delivered Big Cash to Little - Known California Apartment Association Committee in 2025",
+          "url": "https://www.citywatchla.com/los-angeles/32166-corporate-landlords-delivered-big-cash-to-little-known-california-apartment-association-committee-in-2025",
+          "domain": "citywatchla.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://www.citywatchla.com/images/stories/Jan-2026/008f.jpg#joomlaImage://local-images/stories/Jan-2026/008f.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f95\u5361\u6015\u662f\u8981\u88ab\u8d31\u5356\u4e86 _ \u51e4\u51f0\u7f51",
+          "url": "https://finance.ifeng.com/c/8qFWONnkmbL",
+          "domain": "finance.ifeng.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://x0.ifengimg.com/ucms/2026_05/7736BC8619755D61AAC1C13F50ABECAF06B5E738_size765_w975_h549.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f3\u96c6\u56e2\u6216\u51fa\u552e\u5f95\u5361\u76f8\u673a\u63a7\u80a1\u6743 \u8003\u592b\u66fc\u5bb6\u65cf\u6216\u91cd\u65b0\u6295\u8d44 \u4ea4\u6613\u5c1a\u5904\u65e9\u671f\u8ba8\u8bba\u9636\u6bb5 - \u624b\u673a\u5feb\u62a5 - ITBear\u79d1\u6280\u8d44\u8baf",
+          "url": "https://www.itbear.com.cn/html/2026-01/1109741.html",
+          "domain": "itbear.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260126T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f95\u5361\u6216\u518d\u5ea6\u6613\u4e3b \uff1a \u4e2d\u8d44\u7b49\u591a\u65b9\u7ade\u9010 \uff0c \u5c0f\u7c73\u534e\u4e3a\u662f\u5426\u5165\u5c40\u5f15\u5173\u6ce8",
+          "url": "https://dcdv.zol.com.cn/1124/11249451.html",
+          "domain": "dcdv.zol.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260126T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f95\u5361\u53c8\u8981\u51fa\u552e\u4e86 \uff0c \u4e2d\u8d44\u4e70\u4e0b\u767e\u5e74\u53ef\u4e50\u6807 \uff1f \uff5c\u7845\u8c37\u89c2\u5bdf",
+          "url": "https://finance.sina.com.cn/tob/2026-01-26/doc-inhiqsxc8366588.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260126T0",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/finance/transform/39/w550h289/20260126/342e-9d6feda35a2ba384e996e819b2807b2f.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "New roads to cut Delhi - Chennai travel time by 5 hrs : Gadkari",
+          "url": "https://www.thehitavada.com/Encyc/2026/1/25/new-roads-to-cut-delhi-chennai-travel-time-by-5-hrs-gadkari.html",
+          "domain": "thehitavada.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260125T0",
+          "tone": 0,
+          "socialimage": "https://www.thehitavada.com/Encyc/2026/1/25/1_202601250956399790_H@@IGHT_728_W@@IDTH_1290.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "Latest Articles",
+          "url": "https://freerepublic.com/tag/*/index?more=4363567",
+          "domain": "freerepublic.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260123T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "AI\u5e36\u52d5\u65e5\u672c\u623f\u5e02 \uff01 \u65e5\u5713\u751c\u751c\u50f9\u89f8\u53ca\u5fc3\u7406\u9632\u7dda \u61c2\u5b83\u7684\u4eba\u5df2\u7d93\u5148\u9032\u5834 | \u8ca1\u7d93 | \u4e09\u7acb\u65b0\u805e\u7db2 SETN . COM",
+          "url": "https://www.setn.com/News.aspx?NewsID=1784036",
+          "domain": "setn.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260121T2",
+          "tone": 0,
+          "socialimage": "https://attach.setn.com/newsimages/2026/01/21/5426537-PH.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u4e3a\u4f55\u5927\u5bb6\u90fd\u5728\u671f\u5f85\u4e07\u8c6a\u6536\u8d2d\u7470\u4e3d \uff1f- \u949b\u5a92\u4f53\u5b98\u65b9\u7f51\u7ad9",
+          "url": "https://www.tmtpost.com/7850154.html",
+          "domain": "tmtpost.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260121T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": " \u300a \u570b\u969b\u7d93\u6fdf \u300b \u5927\u5200\u780d\u5411\u83ef\u723e\u8857\u623f\u6771\u5011 \u5ddd\u666e\u7c3d\u7f72\u884c\u653f\u547d\u4ee4 - \u8ca1\u7d93",
+          "url": "https://www.chinatimes.com/realtimenews/20260121002951-260410",
+          "domain": "chinatimes.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260121T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u9812\u4ee4\u9650\u5236\u83ef\u723e\u8857\u6a5f\u69cb\u8cfc\u8cb7\u7368\u68df\u4f4f\u5b85 | \u884c\u653f\u547d\u4ee4 | \u5927\u578b\u6a5f\u69cb\u6295\u8cc7\u8005 | first - look",
+          "url": "https://www.epochtimes.com/b5/26/1/21/n14680475.htm",
+          "domain": "epochtimes.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260121T0",
+          "tone": 0,
+          "socialimage": "https://i.epochtimes.com/assets/uploads/2024/02/id14191133-California-Housing-1080x720-700x359.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Freight Broker TransLoop Expands Chicago Office Space",
+          "url": "https://therealdeal.com/chicago/2026/01/20/freight-broker-transloop-expands-chicago-office-space/",
+          "domain": "therealdeal.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260120T2",
+          "tone": 0,
+          "socialimage": "https://static.therealdeal.com/wp-content/uploads/2026/01/Freight-Broker-TransLoop-Expands-Chicago-Office-Space-.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "IPOs mark a new era for India hospitality industry with scale , ambition",
+          "url": "https://www.rediff.com/money/report/ipos-mark-a-new-era-for-indias-hospitality-industry-with-scale-ambition/20250715.htm",
+          "domain": "rediff.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260120T0",
+          "tone": 0,
+          "socialimage": "https://im.rediff.com/1200-630/money/2021/jul/13ipo2.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "One Reit may enter market annually for next 3 - 5 yrs : IRA chief",
+          "url": "https://www.rediff.com/money/report/one-reit-may-enter-market-annually-for-next-3-5-yrs-ira-chief/20250915.htm",
+          "domain": "rediff.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260120T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5f6d\u535a \uff1a \u4f55\u7acb\u5cf0\u9054\u6c83\u65af\u5c07\u6664\u5168\u7403\u5546\u754c\u9818\u8896",
+          "url": "https://china.hket.com/article/4071201/%E5%BD%AD%E5%8D%9A%EF%BC%9A%E4%BD%95%E7%AB%8B%E5%B3%B0%E9%81%94%E6%B2%83%E6%96%AF%E5%B0%87%E6%99%A4%E5%85%A8%E7%90%83%E5%95%86%E7%95%8C%E9%A0%98%E8%A2%96?mtc=30017",
+          "domain": "china.hket.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260120T0",
+          "tone": 0,
+          "socialimage": "https://static04.hket.com/res/v3/image/content/4070000/4071201/200126_169_iet_Eris__1200.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5546\u623f\u9996\u4ed8\u6bd4\u4f8b\u4e0b\u8c03\u662f\u6284\u5e95\u4fe1\u53f7\u5417 \u5168\u7403\u5546\u4e1a\u5730\u4ea7\u65b0\u52a8\u5411 _ \u65b0\u95fb\u9891\u9053 _ \u4e2d\u534e\u7f51",
+          "url": "https://news.china.com/socialgd/10000169/20260117/49173138.html",
+          "domain": "news.china.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260117T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "The 10 Largest US Funding Rounds of December 2025 \u2013 AlleyWatch",
+          "url": "https://www.alleywatch.com/2026/01/us-startup-funding-top-largest-december-2025-vc/",
+          "domain": "alleywatch.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260116T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "funding"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5b89\u8e0f\u6536\u8d2d200\u591a\u5929\u540e \uff0c \u72fc\u722a\u5f00\u8fdb\u5408\u80a5\u4e07\u8c61\u57ce \uff0c \u4f46\u8fd8\u5356\u4e0d\u4e86\u4e07\u5143\u7fbd\u7ed2\u670d",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-01-16/doc-inhhnzat5438858.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260116T0",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/spider20260116/384/w2048h1536/20260116/9db1-53eca6a9ce6bcdbf71b4eb7de9d63442.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ec4\u4ec1\u52cb\u6ca1\u8bf4\u9519 \uff01 \u5e74\u7f3a\u53e38\u4e07\u4eba \uff0c \u5e74\u85aa140\u4e07 \uff0c \u7f8e\u56fd\u5927\u5382\u6b63\u5728\u75af\u62a2\u7535\u5de5",
+          "url": "https://www.163.com/tech/article/KJD1LRCG00097U7T.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260116T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": " \u3010 \u7f8e\u80a1\u76e4\u5f8c \u3011 \u91d1\u878d\u80a1\u8ca1\u5831\u4eae\u773c \u3001 \u53f0\u7a4d\u96fbADR\u98c6\u903e4 %\uff01 \u56db\u5927\u6307\u6578\u9f4a\u63da | \u91d1\u878d",
+          "url": "https://news.ustv.com.tw/newsdetail/20260116A001001?newsall=true&type=144",
+          "domain": "news.ustv.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260116T0",
+          "tone": 0,
+          "socialimage": "https://cdn.ustv.com.tw/new_newsimg/20260116/A001001/20260116A001001_075623.webp"
+        },
+        {
+          "source": "GDELT",
+          "title": " \u3010 \u7f8e\u80a1\u76e4\u5f8c \u3011 \u91d1\u878d\u80a1\u8ca1\u5831\u4eae\u773c \u3001 \u53f0\u7a4d\u96fbADR\u98c6\u903e4 %\uff01 \u56db\u5927\u6307\u6578\u9f4a\u63da | \u91d1\u878d",
+          "url": "https://news.ustv.com.tw/newsdetail/20260116A001001",
+          "domain": "news.ustv.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260116T0",
+          "tone": 0,
+          "socialimage": "https://cdn.ustv.com.tw/new_newsimg/20260116/A001001/20260116A001001_075623.webp"
+        },
+        {
+          "source": "GDELT",
+          "title": "009817 19\u65e5\u958b\u52df \u9322\u9032\u65e5\u672c\u4e0d\u52d5\u7522 - \u5c08\u984c\u5468\u5831",
+          "url": "https://www.chinatimes.com/newspapers/20260115000460-260209",
+          "domain": "chinatimes.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260114T2",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u534e\u5c14\u8857\u4ece  \u5ba0\u513f  \u6ca6\u4e3a\u653f\u7b56\u51fa\u6c14\u7b52\u4e86\u5417 \u91d1\u878d\u754c\u4e0e\u653f\u5e9c\u5173\u7cfb\u7d27\u5f20 _ \u65b0\u95fb\u9891\u9053 _ \u4e2d\u534e\u7f51",
+          "url": "https://news.china.com/socialgd/10000169/20260114/49164593.html",
+          "domain": "news.china.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260114T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Institutional Investors : Answer To The Affordable Housing Question",
+          "url": "https://www.forbes.com/sites/johntamny/2026/01/13/institutional-investors-answer-to-the-affordable-housing-question/",
+          "domain": "forbes.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260113T2",
+          "tone": 0,
+          "socialimage": "https://imageio.forbes.com/specials-images/imageserve/6966afcec3653e72f06e1efc/0x0.jpg?format=jpg&fit=bounds"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u62df12\u4ebf\u5143\u6536\u8d2d\u8d6b\u5409\u4e9a\u751f\u7269 \u4e2d\u56fd\u751f\u7269\u5236\u836f\u610f\u5728  \u6284\u5e95  \u5c0f\u6838\u9178",
+          "url": "https://www.nbd.com.cn/articles/2026-01-13/4218933.html",
+          "domain": "nbd.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260113T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Hill & Knowlton global CEO Kelli Parsons exits to lead Avoq",
+          "url": "https://www.prweek.com/article/1944904/hill-knowlton-global-ceo-kelli-parsons-exits-lead-avoq",
+          "domain": "prweek.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260113T1",
+          "tone": 0,
+          "socialimage": "https://cached.imagescaler.hbpl.co.uk/resize/scaleHeight/150/cached.offlinehbpl.hbpl.co.uk/news/ORP/parson-uwp-prwus.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u661f\u5c55\u96c6\u56e2\u8003\u8651\u8fdb\u519b\u91cd\u5927\u98ce\u9669\u8f6c\u79fb\u5e02\u573a \u63a8\u52a8\u8d37\u6b3e\u589e\u957f\u5438\u6536\u51b2\u51fb",
+          "url": "https://www.zaobao.com.sg/finance/singapore/story20260109-8075155",
+          "domain": "zaobao.com.sg",
+          "language": "Chinese",
+          "country": "Singapore",
+          "date": "20260109T0",
+          "tone": 0,
+          "socialimage": "https://cassette.sphdigital.com.sg/image/zaobao/ec78ef5e64ef28f2b8726106651c3e289b017c7036983947a5338a47ec8e58a9"
+        },
+        {
+          "source": "GDELT",
+          "title": "Trump Announces 2026 Ban on Institutional Investors Buying Single - Family Homes",
+          "url": "https://www.webpronews.com/trump-announces-2026-ban-on-institutional-investors-buying-single-family-homes/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260109T0",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-5894-1767877245.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": " \u3010 \u8ca1\u7d93\u5feb\u5831 \u3011 \u7f8e\u5546\u52d9\u90e8\u516c\u5e0310\u6708\u8cbf\u6613\u9006\u5dee \u52752009\u5e74\u4f86\u6700\u4f4e | \u7f8e\u6b50\u570b\u9632\u80a1 | \u7f8e\u570b\u5922 | Alphabet\u7684\u80a1\u50f9",
+          "url": "https://www.ntdtv.com/b5/2026/01/08/a104054689.html",
+          "domain": "ntdtv.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T2",
+          "tone": 0,
+          "socialimage": "https://i.ntdtv.com/assets/uploads/2026/01/id104054693-4cd325b4091ee224008b4d7bb0e41dbb-1200x630.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u91cd\u62f3\u6253\u623f \u7981\u5927\u578b\u6a5f\u69cb\u8cfc\u5b85 - \u8ca1\u7d93",
+          "url": "https://www.chinatimes.com/newspapers/20260109000530-260110",
+          "domain": "chinatimes.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260108T2",
+          "tone": 0,
+          "socialimage": "https://images.chinatimes.com/newsphoto/2026-01-09/656/B06A00_P_01_02.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u661f\u671f\u56db\u7f8e\u5e02\u76d8\u524d\u8d70\u4f4e \u805a\u7126\u641c\u7d22\u5de8\u5934\u8c37\u6b4c\u6bcd\u516c\u53f8Alphabet\u7684\u5e02\u503c",
+          "url": "https://www.zaobao.com.sg/finance/world/story20260108-8070370",
+          "domain": "zaobao.com.sg",
+          "language": "Chinese",
+          "country": "Singapore",
+          "date": "20260108T1",
+          "tone": 0,
+          "socialimage": "https://cassette.sphdigital.com.sg/image/zaobao/795e6b301f6a3365b0e955a7d35786c20262b2d0a0eec41ece324f7496ede297"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u8c03\u63a7\u623f\u4ef7 \uff0c \u7279\u6717\u666e\u8981\u5bf9\u534e\u5c14\u8857\u5f00\u5200 \uff1f ",
+          "url": "https://news.ifeng.com/c/8pkaAkID5NP",
+          "domain": "news.ifeng.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T1",
+          "tone": 0,
+          "socialimage": "https://x0.ifengimg.com/ucms/2026_02/FF0EE85F1A0C9E029D2E6394FBA2020464456FD8_size53_w688_h387.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u62df\u7981\u6b62\u673a\u6784\u6295\u8d44\u8005\u8d2d\u4e70\u72ec\u680b\u4f4f\u5b85 \uff0c \u7279\u6717\u666e\u63a7\u623f\u4ef7\u5148\u62ff\u534e\u5c14\u8857\u5f00\u5200 \uff1f ",
+          "url": "https://baijiahao.baidu.com/s?id=1853738647399890769",
+          "domain": "baijiahao.baidu.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u62df\u7981\u6b62\u673a\u6784\u6295\u8d44\u8005\u8d2d\u4e70\u72ec\u680b\u4f4f\u5b85 \uff0c \u7279\u6717\u666e\u63a7\u623f\u4ef7\u5148\u62ff\u534e\u5c14\u8857\u5f00\u5200 \uff1f ",
+          "url": "https://www.yicai.com/news/102993764.html",
+          "domain": "yicai.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7279\u6717\u666e\uff5c\u5a01\u8105\u7981\u6295\u8cc7\u8005\u8cb7\u7368\u7acb\u5c4b \u5c0b\u964d\u6eab\u6a13\u50f9",
+          "url": "https://inews.hket.com/article/4065023/%E7%89%B9%E6%9C%97%E6%99%AE%EF%BD%9C%E5%A8%81%E8%84%85%E7%A6%81%E6%8A%95%E8%B3%87%E8%80%85%E8%B2%B7%E7%8D%A8%E7%AB%8B%E5%B1%8B%20%E5%B0%8B%E9%99%8D%E6%BA%AB%E6%A8%93%E5%83%B9?mtc=80023",
+          "domain": "inews.hket.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": "https://static04.hket.com/res/v3/image/content/4065000/4065023/09cafp005__1024_1_1200.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7279\u6717\u666e\uff5c\u5a01\u8105\u7981\u6295\u8cc7\u8005\u8cb7\u7368\u7acb\u5c4b \u5c0b\u964d\u6eab\u6a13\u50f9",
+          "url": "https://inews.hket.com/article/4065023/%E7%89%B9%E6%9C%97%E6%99%AE%EF%BD%9C%E5%A8%81%E8%84%85%E7%A6%81%E6%8A%95%E8%B3%87%E8%80%85%E8%B2%B7%E7%8D%A8%E7%AB%8B%E5%B1%8B%20%E5%B0%8B%E9%99%8D%E6%BA%AB%E6%A8%93%E5%83%B9?mtc=80029",
+          "domain": "inews.hket.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": "https://static04.hket.com/res/v3/image/content/4065000/4065023/09cafp005__1024_1_1200.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7279\u6717\u666e\u53c8\u73a9\u793e\u5a92\u6cbb\u56fd\u63a7\u5e02 \u623f\u4ea7\u4e0e\u519b\u5de5\u80a1\u60e8\u906d\u6b83",
+          "url": "https://www.enanyang.my/news/20260108/Finance/1127122",
+          "domain": "enanyang.my",
+          "language": "Chinese",
+          "country": "Malaysia",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": "https://vega.enanyang.my/wp-content/uploads/2026/01/TRUMP2750-aspect-ratio-600-3154408.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7f8e\u80a1\u4e09\u5927\u6307\u6578\u6536\u76e4\u6f32\u8dcc\u4e0d\u4e00 \u9053\u6307\u8dcc\u8fd11 % ",
+          "url": "https://www.hkcd.com/hkcdweb/content/2026/01/08/content_8734537.html",
+          "domain": "hkcd.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7279\u6717\u666e \uff1a \u7981\u6b62\u56e4\u623f|\u62dc\u767b|\u9009\u6c11|\u5510\u7eb3 \u00b7 \u5ddd\u666e|\u7f8e\u56fd\u56fd\u4f1a\u53c2\u8bae\u9662 _ \u7f51\u6613\u8ba2\u9605",
+          "url": "https://www.163.com/dy/article/KIOCSR5V05568W0A.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u65e9\u62a5\u4e28\u7279\u6717\u666e\u6df1\u591c\u8fde\u7eed\u53d1\u58f0 \uff01 \u6d89\u53ca\u77f3\u6cb9 \u3001 \u56fd\u9632 \u3001 \u5730\u4ea7 \uff1b \u5b9a\u57282\u670824\u65e5 \uff01 \u7279\u6717\u666e\u5c06\u53d1\u8868\u56fd\u60c5\u54a8\u6587 \uff1b MiniMax\u4eca\u65e5\u5f00\u542f\u6697\u76d8\u4ea4\u6613 _ \u4e1c\u65b9\u8d22\u5bcc\u7f51",
+          "url": "https://finance.eastmoney.com/a/202601083612112940.html",
+          "domain": "finance.eastmoney.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u76e4\u524d\u91cd\u9ede \u300b \u8cbb\u534a\u56de\u843d \u3001 \u7f8e\u80a1\u9ad8\u6a94\u9707\u76ea \uff01 \u53f0\u7a4d\u96fb\u80a1\u5229\u5165\u5e33\u80fd\u7a69\u76e4 \uff1f | \u4e0b\u73ed\u7d93\u6fdf\u5b78 | \u98a8\u751f\u6d3b",
+          "url": "https://www.storm.mg/lifestyle/11093460",
+          "domain": "storm.mg",
+          "language": "Chinese",
+          "country": "Madagascar",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": "https://images.storm.mg/cloud/59140a0c21967657ddfd929a11e50b90c2d26322.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2102870%2F0AShD3TyR26fvRy3S5LnYTzmWEAABa1ix9UjFufr.jpg&g=sm"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u64ec\u7981\u83ef\u723e\u8857\u6295\u8cc7\u4eba\u7092\u4f5c\u4f4f\u5b85 \u6253\u58d3\u7f8e\u570b\u623f\u50f9 | ETtoday\u570b\u969b\u65b0\u805e",
+          "url": "https://www.ettoday.net/news/20260108/3097381.htm",
+          "domain": "ettoday.net",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260108T0",
+          "tone": 0,
+          "socialimage": "https://cdn2.ettoday.net/images/8569/e8569956.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u51fa\u624b\u6253\u538b\u7f8e\u56fd\u623f\u4ef7 \u62df\u7981\u534e\u5c14\u8857\u6295\u8d44\u4eba\u7092\u4f5c\u4f4f\u5b85",
+          "url": "https://www.wenxuecity.com/news/2026/01/07/126479028.html",
+          "domain": "wenxuecity.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260107T2",
+          "tone": 0,
+          "socialimage": "https://www.wenxuecity.com/data/news/202601/07/3fb112ff6b34aa297d6ca094be0ce962.webp"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7f8e\u80a1\u6536\u76e4 \u300b \u9053\u74ca\u9ad8\u9ede\u56de\u843d466\u9ede \uff01 \u53f0\u7a4d\u96fbADR\u8dcc\u903e2 . 6 \uff05 ",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5302833",
+          "domain": "ec.ltn.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260107T2",
+          "tone": 0,
+          "socialimage": "https://img.ltn.com.tw/Upload/business/page/800/2026/01/08/phpi9BPhx.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e \uff1a \u5c07\u7981\u6b62\u5927\u578b\u6295\u8cc7\u8005\u8cfc\u8cb7\u7368\u68df\u5bb6\u5ead\u4f4f\u5b85 | \u7279\u6717\u666e | \u7f8e\u570b\u5922 | \u6a5f\u69cb\u6295\u8cc7\u8005",
+          "url": "https://www.epochtimes.com/b5/26/1/7/n14671144.htm",
+          "domain": "epochtimes.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260107T2",
+          "tone": 0,
+          "socialimage": "https://i.epochtimes.com/assets/uploads/2025/06/id14533400-housing-1234-700x359.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u51fa\u624b\u6574\u987f\u4f4f\u623f\u5e02\u573a \uff1a \u7981\u6b62\u5927\u578b\u8d44\u672c\u7ee7\u7eed\u4e70\u623f \uff0c \u534e\u5c14\u8857\u623f\u4f01\u80a1\u4ef7\u96c6\u4f53\u8df3\u6c34",
+          "url": "https://www.163.com/dy/article/KINP2TLI0514BT3D.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260107T2",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5ddd\u666e\u64ec\u7981\u83ef\u723e\u8857\u6295\u8cc7\u4eba\u7092\u4f5c\u4f4f\u5b85 \u6253\u58d3\u7f8e\u570b\u623f\u50f9 - \u570b\u969b",
+          "url": "https://news.ltn.com.tw/news/world/breakingnews/5302828",
+          "domain": "news.ltn.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260107T2",
+          "tone": 0,
+          "socialimage": "https://news.ltn.com.tw/assets/images/all/250_ltn.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u79c1\u52df\u80a1\u6743\u884c\u4e1a\u7f18\u4f55\u5f00\u59cb\u62e5\u62b1\u4eba\u5de5\u667a\u80fd",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-07/doc-inhfnqzp4667061.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260107T1",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/finance/transform/59/w550h309/20260107/e61d-e577c565c2a77877e641ce25daa95e31.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "2026\u5e74\u6709\u671b\u6210\u7f8e\u80a1  \u6253\u65b0\u8d85\u7ea7\u5e74 \uff1a \u4eceSpaceX\u5230  \u7f8e\u56fd\u4e24\u623f \uff0c \u6570\u5343\u4ebf\u7f8e\u5143\u4e0a\u5e02\u6f6e\u6765\u88ad \uff01_ \u80a1\u5e02\u76f4\u64ad _ \u5e02\u573a _ \u4e2d\u91d1\u5728\u7ebf",
+          "url": "http://sc.stock.cnfol.com/gushizhibo/20260107/31922297.shtml",
+          "domain": "sc.stock.cnfol.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260107T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u521b\u59cb\u4eba\u4e4b\u5b50\u63a5\u4efbCEO \uff0c \u80fd\u5426\u5e26\u5eb7\u5e08\u5085\u7a81\u51fa\u91cd\u56f4 \uff1f- DoNews",
+          "url": "https://www.donews.com/news/detail/1/6350702.html",
+          "domain": "donews.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260105T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u521b\u59cb\u4eba\u4e4b\u5b50\u63a5\u4efbCEO \uff0c \u80fd\u5426\u5e26\u5eb7\u5e08\u5085\u7a81\u51fa\u91cd\u56f4 \uff1f ",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-01-05/doc-inhfhavm2112371.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260105T1",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/spider20260105/480/w1280h800/20260105/8ee8-8731138d9c58ea2acd4d0c278f5ab004.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5510\u7f57\u4e3b\u4e49\u5f00\u59cb\u52a8\u624b \uff0c \u8c01\u662f\u4e0b\u4e00\u4e2a\u59d4\u5185\u745e\u62c9 \uff1f ",
+          "url": "https://www.163.com/dy/article/KIGRLMJU05506O99.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260105T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5510\u7f57\u4e3b\u4e49\u5f00\u59cb\u52a8\u624b \uff0c \u8c01\u662f\u4e0b\u4e00\u4e2a\u59d4\u5185\u745e\u62c9 \uff1f ",
+          "url": "https://news.ifeng.com/c/8pe1YI9yA6s",
+          "domain": "news.ifeng.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260104T1",
+          "tone": 0,
+          "socialimage": "https://x0.ifengimg.com/ucms/2026_02/A46CB31476187C2EE7C84105EFA63709C3E2E759_size107_w975_h549.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Portugal Extends Casino Licenses Amid Long - Term Tender Delays",
+          "url": "https://news.worldcasinodirectory.com/portugal-extends-casino-licenses-as-15-year-tender-delays-121135",
+          "domain": "news.worldcasinodirectory.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260102T1",
+          "tone": 0,
+          "socialimage": "https://news.worldcasinodirectory.com/wp-content/uploads/2026/01/Portugal-extends-casino-concessions-as-bidding-process-continues-500x267.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Why Billionaires And Luxury Travelers Prefer Newport , Rhode Island",
+          "url": "https://www.forbes.com/sites/paulaconway/2025/12/30/why-billionaires-and-luxury-travelers-prefer-newport-rhode-island/",
+          "domain": "forbes.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251230T1",
+          "tone": 0,
+          "socialimage": "https://imageio.forbes.com/specials-images/imageserve/69532b795658fc8508306a86/0x0.jpg?format=jpg&fit=bounds"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u6570\u636e\u4e2d\u5fc3\u5927\u6295\u8d44\u4eba\u5766\u8a00\u6df1\u611f\u62c5\u5fe7 \uff1a \u672a\u6765\u4e09\u5e74\u5c06\u51fa\u73b0\u878d\u8d44\u5371\u673a \uff01 _ \u4e1c\u65b9\u8d22\u5bcc\u7f51",
+          "url": "https://finance.eastmoney.com/a/202512303605639134.html",
+          "domain": "finance.eastmoney.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251230T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Coffee Day Enterprises to Settle Axis Bank Dues with Rs70 Crore OTS",
+          "url": "https://dailypioneer.com/news/coffee-day-enterprises-to-settle-rs-70-crore-loan-with-axis-bank",
+          "domain": "dailypioneer.com",
+          "language": "English",
+          "country": "India",
+          "date": "20251229T2",
+          "tone": 0,
+          "socialimage": "https://dailypioneer.com/uploads/2025/story/images/big/coffee-day-enterprises-to-settle-rs-70-crore-loan-with-axis-bank-2025-12-30.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Melissa Rom\u00e1n Burch Exiting New York EDC to Run Schwarzman Foundation",
+          "url": "https://commercialobserver.com/2025/12/melissa-roman-burch-exiting-new-york-edc-run-schwarzman-foundation/",
+          "domain": "commercialobserver.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251229T2",
+          "tone": 0,
+          "socialimage": "https://commercialobserver.com/wp-content/uploads/sites/3/2025/12/melissaburch-46-Edit-credit-Chris-Sorensen-WEB.jpg?quality=80&crop=1"
+        },
+        {
+          "source": "GDELT",
+          "title": "Coffee Day Enterprises to settle Rs 70 - crore loan with Axis Bank",
+          "url": "https://www.siasat.com/coffee-day-enterprises-to-settle-rs-70-crore-loan-with-axis-bank-3318193/",
+          "domain": "siasat.com",
+          "language": "English",
+          "country": "India",
+          "date": "20251229T1",
+          "tone": 0,
+          "socialimage": "https://cdn.siasat.com/wp-content/uploads/2025/12/Cafe-Coffee-Day.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Stockman Warning | The American Spectator | united states News and Politics",
+          "url": "https://spectator.org/stockmans-warning/",
+          "domain": "spectator.org",
+          "language": "English",
+          "country": "United States",
+          "date": "20251228T0",
+          "tone": 0,
+          "socialimage": "https://spectator.org/wp-content/uploads/2025/12/Stockman-e1766847250473.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7279\u6717\u666e2 . 0\u5f15\u842c\u5104\u8cc7\u91d1\u6d41\u54115\u9818\u57df - 20251228 - \u7d93\u6fdf",
+          "url": "https://news.mingpao.com/pns/%E7%B6%93%E6%BF%9F/article/20251228/s00004/1766851237188/%E7%89%B9%E6%9C%97%E6%99%AE2-0%E5%BC%95%E8%90%AC%E5%84%84%E8%B3%87%E9%87%91%E6%B5%81%E5%90%915%E9%A0%98%E5%9F%9F",
+          "domain": "news.mingpao.com",
+          "language": "Chinese",
+          "country": "Hong Kong",
+          "date": "20251227T2",
+          "tone": 0,
+          "socialimage": "https://fs.mingpao.com/pns/20251228/s00064/b5f8a266601a47ee93788c909c8a5000.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "These 8 Companies Have Produced The Most Self - Made Billionaires",
+          "url": "https://www.forbes.com/sites/emilygarcia/2025/12/25/these-8-public-companies-have-created-54-self-made-billionaires/",
+          "domain": "forbes.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251225T1",
+          "tone": 0,
+          "socialimage": "https://imageio.forbes.com/specials-images/imageserve/6945788311e9d3fdbbb3a58b/0x0.jpg?format=jpg&fit=bounds"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u5eb7\u5e08\u5085\u8463\u4e8b\u957f\u5f1f\u5f1f\u9b4f\u5b8f\u4e1e\u5c06\u51fa\u4efbCEO \u521b\u59cb\u4eba\u5bb6\u65cf\u5e76\u4e0d\u59d3\u5eb7",
+          "url": "https://finance.sina.com.cn/tech/roll/2025-12-25/doc-inhcznyc3204814.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251225T1",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/spider20251225/116/w550h366/20251225/9c7d-aea13b7c439dcc1e31d8b39f194ca777.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "Arjun Sharma Acquires Luxury South Delhi Bungalow for \u20b9125 Crore , ETRealty",
+          "url": "https://realty.economictimes.indiatimes.com/news/residential/arjun-sharma-acquires-luxury-south-delhi-bungalow-for-125-crore/126170162",
+          "domain": "realty.economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20251225T0",
+          "tone": 0,
+          "socialimage": "https://etimg.etb2bimg.com/thumb/msid-126170162,imgsize-192552,width-1200,height=627,overlay-etrealty,resizemode-75/residential/arjun-sharma-acquires-luxury-south-delhi-bungalow-for-125-crore.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u4e00\u4e2a\u8d85\u7ea7IPO\u6572\u949f \uff0c \u9ed1\u77f3\u8d5a\u7ffb\u4e86",
+          "url": "https://news.pedaily.cn/202512/559012.shtml",
+          "domain": "news.pedaily.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251225T0",
+          "tone": 0,
+          "socialimage": "https://pic2.pedaily.cn/25/202512/20251223154499839983.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "  80\u540e  \u5bcc\u8c6a\u5c40\u957f \uff0c \u8981  \u81ea\u638f\u8170\u5305  \u767b\u6708 \uff1f ",
+          "url": "https://export.shobserver.com/baijiahao/html/1041234.html",
+          "domain": "export.shobserver.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251225T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "  80\u540e  \u5bcc\u8c6a\u5c40\u957f \uff0c \u8981  \u81ea\u638f\u8170\u5305  \u767b\u6708 \uff1f |\u5b87\u822a\u5458|\u9f99\u98de\u8239|nasa|\u592a\u7a7a\u98de\u884c|\u6708\u98de\u884c\u4efb\u52a1",
+          "url": "https://www.163.com/dy/article/KHJUH0SO055040N3.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251225T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u4eca\u65e5\u56fd\u9645\u56fd\u5185\u8d22\u7ecf\u65b0\u95fb\u7cbe\u534e\u6458\u8981\uff5c2025\u5e7412\u670824\u65e5",
+          "url": "https://finance.sina.com.cn/headline/2025-12-24/doc-inhcwafr6128015.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251224T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "  \u661f\u94fe  \u6d3b\u8dc3\u7528\u6237\u7a81\u7834900\u4e07 \uff1b COMEX\u9ec4\u91d1\u671f\u8d27\u7a81\u78344500\u7f8e\u5143 \uff0c \u73b0\u94f6\u4e00\u5ea6\u6da8\u783470\u7f8e\u5143 \uff1b \u7f8e\u56fd\u4e09\u5b63\u5ea6GDP\u6570\u636e\u4eca\u665a\u516c\u5e03 \u3010 \u7f8e\u80a1\u76d8\u524d \u3011 ",
+          "url": "https://www.nbd.com.cn/articles/2025-12-23/4192320.html",
+          "domain": "nbd.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251223T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u4e00\u4e2a\u8d85\u7ea7IPO\u6572\u949f \uff0c \u9ed1\u77f3\u8d5a\u7ffb\u4e86",
+          "url": "https://finance.sina.com.cn/tech/roll/2025-12-23/doc-inhcuqen0768647.shtml",
+          "domain": "finance.sina.com.cn",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251223T0",
+          "tone": 0,
+          "socialimage": "https://n.sinaimg.cn/spider20251223/200/w1080h720/20251223/9211-e9bc59573162a255c00d51e86d1c2f12.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": " # NYCtech Week in Review : 12 / 14 / 25 \u2013 12 / 20 / 25 \u2013 AlleyWatch",
+          "url": "https://www.alleywatch.com/2025/12/nyctech-week-in-review-12-14-25-12-20-25/",
+          "domain": "alleywatch.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251222T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "The Weekly Notable Startup Funding Report : 12 / 22 / 25 \u2013 AlleyWatch",
+          "url": "https://www.alleywatch.com/2025/12/the-weekly-notable-startup-funding-report-12-22-25/",
+          "domain": "alleywatch.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251222T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "funding"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9ed1\u77f38900\u4e07\u7f8e\u5143\u6536\u8d2d\u65e5\u672c\u5927\u962a\u5fc3\u658b\u6865\u9152\u5e97",
+          "url": "https://www.163.com/dy/article/KHCJANGJ05568W0A.html",
+          "domain": "163.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20251222T0",
+          "tone": 0,
+          "socialimage": ""
+        }
+      ],
+      "adverse_media": [],
+      "positive_media": [
+        {
+          "source": "GDELT",
+          "title": "The 10 Largest US Funding Rounds of December 2025 \u2013 AlleyWatch",
+          "url": "https://www.alleywatch.com/2026/01/us-startup-funding-top-largest-december-2025-vc/",
+          "domain": "alleywatch.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260116T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "funding"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "The Weekly Notable Startup Funding Report : 12 / 22 / 25 \u2013 AlleyWatch",
+          "url": "https://www.alleywatch.com/2025/12/the-weekly-notable-startup-funding-report-12-22-25/",
+          "domain": "alleywatch.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20251222T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "funding"
+          ]
+        }
+      ],
+      "by_source": {
+        "finance.sina.com.cn": 10,
+        "163.com": 10,
+        "inews.hket.com": 4,
+        "news.pedaily.cn": 3,
+        "finance.eastmoney.com": 3,
+        "chinatimes.com": 3,
+        "alleywatch.com": 3,
+        "forbes.com": 3,
+        "setn.com": 2,
+        "hkcd.com": 2,
+        "news.mingpao.com": 2,
+        "baijiahao.baidu.com": 2,
+        "itbear.com.cn": 2,
+        "epochtimes.com": 2,
+        "rediff.com": 2,
+        "news.china.com": 2,
+        "news.ustv.com.tw": 2,
+        "nbd.com.cn": 2,
+        "zaobao.com.sg": 2,
+        "news.ifeng.com": 2
+      },
+      "by_month": {
+        "2026013": 14,
+        "2026012": 28,
+        "2026011": 11,
+        "2026010": 28,
+        "2025123": 2,
+        "2025122": 17
+      },
+      "sentiment_summary": {
+        "adverse": 0,
+        "positive": 2,
+        "neutral": 98
+      },
+      "key_topics": [],
+      "timeline": [
+        {
+          "month": "2025122",
+          "count": 17
+        },
+        {
+          "month": "2025123",
+          "count": 2
+        },
+        {
+          "month": "2026010",
+          "count": 28
+        },
+        {
+          "month": "2026011",
+          "count": 11
+        },
+        {
+          "month": "2026012",
+          "count": 28
+        },
+        {
+          "month": "2026013",
+          "count": 14
+        }
+      ]
+    }
+  },
+  "related_entities": [
+    {
+      "type": "political_donor",
+      "description": "Significant political contributions",
+      "significance": "Political activity detected",
+      "confidence": "HIGH"
+    }
+  ],
+  "red_flags": [],
+  "summary": {
+    "target": "Blackstone Group",
+    "target_type": "company",
+    "research_date": "2026-01-31T19:01:43.336894",
+    "total_data_sources_queried": 6,
+    "successful_queries": 6,
+    "related_entities_found": 1,
+    "red_flags_count": 0,
+    "red_flags_by_severity": {
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "risk_assessment": {
+      "score": 0,
+      "level": "MINIMAL RISK",
+      "recommendation": "No significant concerns identified"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+======================================================================
+BLACK WIDOW GLOBAL - INTELLIGENCE DOSSIER
+======================================================================
+
+Subject: Apple Inc
+Type: Company
+Report Date: 2026-01-31
+
+RISK ASSESSMENT: MINIMAL RISK
+Risk Score: 0/100
+Recommendation: No significant concerns identified
+
+----------------------------------------------------------------------
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+Data sources queried: 6
+Successful queries: 6
+Related entities identified: 1
+Red flags identified: 0
+
+----------------------------------------------------------------------
+RELATED ENTITIES & CONNECTIONS
+----------------------------------------------------------------------
+
+political_donor: Significant political contributions
+  Significance: Political activity detected
+
+----------------------------------------------------------------------
+DATA SOURCES CONSULTED
+----------------------------------------------------------------------
+  sec_edgar: Data retrieved
+  opencorporates: Data retrieved
+  fec_donations: Data retrieved
+  court_records: 1 records
+  ucc_filings: 1 records
+  news_search: Data retrieved
+
+======================================================================
+CONFIDENTIAL - FOR AUTHORIZED USE ONLY
+======================================================================

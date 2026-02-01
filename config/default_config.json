@@ -1,0 +1,24 @@
+{
+  "output_dir": "~/Desktop/OSINT_Reports",
+  "report_format": "docx",
+  "api_keys": {
+    "opencorporates": "",
+    "newsapi": "46b27bebc9544e53a31f1ad25972eea2",
+    "pacer_username": "",
+    "pacer_password": "",
+    "fec": "qMMQ7NuG1BX8rxNsylmvLIKN19ePlem85wa1G0xa"
+  },
+  "modules": {
+    "sec_edgar": true,
+    "opencorporates": true,
+    "fec_donations": true,
+    "court_records": true,
+    "ucc_filings": true,
+    "news_search": true
+  },
+  "branding": {
+    "company_name": "Black Widow Global",
+    "tagline": "Corporate Intelligence & Investigative Due Diligence",
+    "confidential_notice": "CONFIDENTIAL - FOR AUTHORIZED USE ONLY"
+  }
+}

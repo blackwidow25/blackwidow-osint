@@ -1,0 +1,1573 @@
+{
+  "target": "Apple Inc",
+  "target_type": "company",
+  "research_date": "2026-01-31T18:58:38.074372",
+  "state": "CA",
+  "data_sources": {
+    "sec_edgar": {
+      "company_info": {},
+      "cik": null,
+      "filings": [],
+      "insider_transactions": [],
+      "beneficial_owners": [],
+      "enforcement_actions": [],
+      "sec_correspondence": []
+    },
+    "opencorporates": {
+      "matches": [],
+      "total_count": 0,
+      "best_match": null
+    },
+    "fec_donations": {
+      "total_contributions": 100,
+      "total_amount": 52417.24,
+      "unique_donors": 47,
+      "contributions_by_party": {
+        "null": {
+          "count": 38,
+          "amount": 15923.0
+        },
+        "DEM": {
+          "count": 61,
+          "amount": 34494.24
+        },
+        "UNK": {
+          "count": 1,
+          "amount": 2000.0
+        }
+      },
+      "top_donors": [
+        {
+          "name": "JACKSON, LISA",
+          "total_amount": 21000.0,
+          "contribution_count": 2,
+          "occupation": "EXECUTIVE",
+          "city": "SAN FRANCISCO",
+          "state": "CA"
+        },
+        {
+          "name": "MARKS, AMANDA",
+          "total_amount": 10500.0,
+          "contribution_count": 2,
+          "occupation": "DIGITAL MEDIA EXEC",
+          "city": "LOS ANGELES",
+          "state": "CA"
+        },
+        {
+          "name": "REDD, HUGH",
+          "total_amount": 5000.0,
+          "contribution_count": 1,
+          "occupation": "DIRECTOR",
+          "city": "GREAT FALLS",
+          "state": "VA"
+        },
+        {
+          "name": "MARKS, ALEXIS",
+          "total_amount": 2500.0,
+          "contribution_count": 1,
+          "occupation": "GOVERNMENT AFFAIRS",
+          "city": "ARLINGTON",
+          "state": "VA"
+        },
+        {
+          "name": "POPPEN, RICHARD",
+          "total_amount": 2325.0,
+          "contribution_count": 1,
+          "occupation": "SOFTWARE ENGINEER",
+          "city": "SAN JOSE",
+          "state": "CA"
+        },
+        {
+          "name": "MCHUGH, SHANE",
+          "total_amount": 2000.0,
+          "contribution_count": 1,
+          "occupation": "SOFTWARE MANAGER",
+          "city": "SEATTLE",
+          "state": "WA"
+        },
+        {
+          "name": "ALFIREVICH, OLIVIA MS.",
+          "total_amount": 2000.0,
+          "contribution_count": 1,
+          "occupation": "OFFICE MANAGER/CONTROLLER",
+          "city": "TINLEY PARK",
+          "state": "IL"
+        },
+        {
+          "name": "SACHS, DENILLE",
+          "total_amount": 1865.0,
+          "contribution_count": 1,
+          "occupation": "ATTORNEY",
+          "city": "LOS ANGELES",
+          "state": "CA"
+        },
+        {
+          "name": "MARKS, ALEXIS S.",
+          "total_amount": 1000.0,
+          "contribution_count": 1,
+          "occupation": "GOVERNMENT AFFAIRS",
+          "city": "ARLINGTON",
+          "state": "VA"
+        },
+        {
+          "name": "ARNOLD, EDITH",
+          "total_amount": 849.0,
+          "contribution_count": 8,
+          "occupation": "SCIENTIST",
+          "city": "REDWOOD CITY",
+          "state": "CA"
+        }
+      ],
+      "recent_contributions": [
+        {
+          "donor": "BAYLOR, NOREEN",
+          "amount": null,
+          "date": null,
+          "recipient": "NARAL PRO-CHOICE AMERICA PAC",
+          "party": null
+        },
+        {
+          "donor": "POPPEN, RICHARD",
+          "amount": 2325.0,
+          "date": "2025-12-29",
+          "recipient": "EQUALITY CALIFORNIA FEDERAL PAC",
+          "party": null
+        },
+        {
+          "donor": "JACKSON, LISA",
+          "amount": 1000.0,
+          "date": "2025-12-29",
+          "recipient": "WAY FOR CONGRESS",
+          "party": "DEM"
+        },
+        {
+          "donor": "ARNOLD, EDITH",
+          "amount": 250.0,
+          "date": "2025-12-28",
+          "recipient": "EMILYS LIST",
+          "party": null
+        },
+        {
+          "donor": "ROLLEFSON, MATT",
+          "amount": 25.0,
+          "date": "2025-12-20",
+          "recipient": "PROTECT THE VOTE",
+          "party": null
+        },
+        {
+          "donor": "ARNOLD, EDITH",
+          "amount": 15.0,
+          "date": "2025-12-12",
+          "recipient": "EMILYS LIST",
+          "party": null
+        },
+        {
+          "donor": "WILLIAMS, MARY",
+          "amount": 20.0,
+          "date": "2025-12-09",
+          "recipient": "CLIMATE HAWKS VOTE POLITICAL ACTION",
+          "party": null
+        },
+        {
+          "donor": "ECKERT-CHU, CORRIN",
+          "amount": 20.0,
+          "date": "2025-12-05",
+          "recipient": "EMILYS LIST",
+          "party": null
+        },
+        {
+          "donor": "SMITH, EMILY",
+          "amount": 25.0,
+          "date": "2025-12-02",
+          "recipient": "JANE FONDA CLIMATE PAC",
+          "party": null
+        },
+        {
+          "donor": "RAMIREZ, DORIAN",
+          "amount": 11.0,
+          "date": "2025-12-02",
+          "recipient": "AFTYN BEHN FOR CONGRESS",
+          "party": "DEM"
+        }
+      ],
+      "top_recipients": [
+        {
+          "name": "DSCC",
+          "party": "DEM",
+          "total_amount": 30050.0
+        },
+        {
+          "name": "AMERICAN HOTEL AND LODGING ASSOCIATION POLITICAL ACTION COMMITTEE ('HOTELPAC')",
+          "party": null,
+          "total_amount": 5000.0
+        },
+        {
+          "name": "NEW DEMOCRAT COALITION ACTION FUND",
+          "party": null,
+          "total_amount": 2500.0
+        },
+        {
+          "name": "EQUALITY CALIFORNIA FEDERAL PAC",
+          "party": null,
+          "total_amount": 2325.0
+        },
+        {
+          "name": "INDIVISIBLE ACTION",
+          "party": null,
+          "total_amount": 2124.0
+        },
+        {
+          "name": "NATIONAL AUTOMOBILE DEALERS ASSOCIATION POLITICAL ACTION COMMITTEE",
+          "party": "UNK",
+          "total_amount": 2000.0
+        },
+        {
+          "name": "AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE",
+          "party": null,
+          "total_amount": 1865.0
+        },
+        {
+          "name": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+          "party": "DEM",
+          "total_amount": 1285.0
+        },
+        {
+          "name": "WAY FOR CONGRESS",
+          "party": "DEM",
+          "total_amount": 1000.0
+        },
+        {
+          "name": "LOFGREN FOR CONGRESS",
+          "party": "DEM",
+          "total_amount": 1000.0
+        }
+      ]
+    },
+    "court_records": [
+      {
+        "source": "State Court (CA)",
+        "case_name": "Manual search required for California Courts",
+        "case_number": "N/A",
+        "court": "California Courts",
+        "date_filed": "",
+        "case_type": "info",
+        "url": "https://www.courts.ca.gov/selfhelp-casesearch.htm",
+        "notes": "Search available for appellate cases. Superior court varies by county.",
+        "search_query": "Apple Inc"
+      }
+    ],
+    "ucc_filings": [
+      {
+        "state": "CA",
+        "search_url": "https://bizfileonline.sos.ca.gov/search/ucc",
+        "debtor_name": "Apple Inc",
+        "status": "manual_search_required",
+        "what_to_look_for": [
+          "Active UCC-1 filings (original financing statements)",
+          "UCC-3 amendments and continuations",
+          "Secured party names (creditors)",
+          "Collateral descriptions",
+          "Filing dates",
+          "Termination status"
+        ]
+      }
+    ],
+    "news_search": {
+      "total_articles": 100,
+      "articles": [
+        {
+          "source": "GDELT",
+          "title": "Gene Munster Says Apple Stock Tepid Reaction To Strong Earnings Beat Comes Down To One Thing : Investors Want More AI Substance",
+          "url": "https://finance.yahoo.com/news/gene-munster-says-apple-stocks-230116444.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260131T2",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/os/en/Benzinga/851cc27ea6ffa761eef9e4c7674917fe"
+        },
+        {
+          "source": "GDELT",
+          "title": "Beth Kowitt : CEO ICE letter isnt good enough - West Central Tribune | News , weather , sports from Willmar Minnesota",
+          "url": "https://www.wctrib.com/opinion/columns/beth-kowitt-ceos-ice-letter-isnt-good-enough",
+          "domain": "wctrib.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260131T1",
+          "tone": 0,
+          "socialimage": "https://forum-communications-production-web.s3.us-west-2.amazonaws.com/brightspot/a7/dd/50773f534b89b310bc8402833e02/oped-kowitt-column-filepic-get.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Intel exposes the hidden cost of state capitalism",
+          "url": "https://www.taipeitimes.com/News/editorials/archives/2026/02/01/2003851557",
+          "domain": "taipeitimes.com",
+          "language": "English",
+          "country": "Taiwan",
+          "date": "20260131T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0623\u0628\u0644 \u062a\u062f\u0641\u0639 \u0645\u0644\u064a\u0627\u0631\u064a \u062f\u0648\u0644\u0627\u0631 \u0644\u0644\u0627\u0633\u062a\u062d\u0648\u0627\u0630 \u0639\u0644\u0649 \u0634\u0631\u0643\u0629 \u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a\u0629 \u0646\u0627\u0634\u0626\u0629 .. \u0645\u0627 \u0627\u0644\u0642\u0635\u0629 \u061f ",
+          "url": "https://www.aljazeera.net/tech/2026/1/31/%D8%A3%D8%A8%D9%84-%D8%AA%D8%AF%D9%81%D8%B9-%D9%85%D9%84%D9%8A%D8%A7%D8%B1%D9%8A-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%B9%D9%84%D9%89",
+          "domain": "aljazeera.net",
+          "language": "Arabic",
+          "country": "Israel",
+          "date": "20260131T1",
+          "tone": 0,
+          "socialimage": "https://www.aljazeera.net/wp-content/uploads/2026/01/qa-1769865261.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "COMMENTARY : CEO ICE letter ( that doesnt mention ICE ) isnt good enough",
+          "url": "https://www.newstribune.com/news/2026/jan/31/commentary-ceos-ice-letter-that-doesnt-mention/",
+          "domain": "newstribune.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260131T1",
+          "tone": 0,
+          "socialimage": "https://wehco.media.clients.ellingtoncms.com/static-4/teaser_images/www.newstribune.com_default.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple faces talent drain as AI experts and Siri exec depart",
+          "url": "https://nextbigwhat.com/2026/01/31/apple-faces-talent-drain-as-ai-experts-and-siri-exec-depart/",
+          "domain": "nextbigwhat.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260131T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "India smartphone purchase pattern changes as iPhone 16 tops sales chart",
+          "url": "https://www.prokerala.com/news/articles/a1724244.html",
+          "domain": "prokerala.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260131T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0631\u063a\u0645 \u0646\u0632\u064a\u0641 \u0628\u0627\u062d\u062b\u064a \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a ..  \u0623\u0628\u0644  \u062a\u062d\u0636\u0631 \u0646\u0633\u062e\u062a\u064a\u0646 \u062c\u062f\u064a\u062f\u062a\u064a\u0646 \u0644\u0640  \u0633\u064a\u0631\u064a  ",
+          "url": "https://www.alnilin.com/13452273.htm",
+          "domain": "alnilin.com",
+          "language": "Arabic",
+          "country": "Sudan",
+          "date": "20260131T0",
+          "tone": 0,
+          "socialimage": "https://www.alnilin.com/wp-content/uploads/2023/01/%D8%A2%D8%A8%D9%84.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Q1 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/news/apple-q1-earnings-call-highlights-235531571.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260131T0",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/os/en/marketbeat_955/e55c50edf14571b4022de54a1569f5ff"
+        },
+        {
+          "source": "GDELT",
+          "title": " \u3010 \u8f1d\u9054\u9020\u661f\u8266 \u3011 \u50b3\u5357\u79d1\u5305\u5730\u990a\u7522\u80fd\u8acb\u8b77\u570b\u795e\u5c71 \u300c \u5951\u4f5c \u300d \u9022\u4f4e\u5e03\u5c40 \u300c \u53f0\u7a4d\u5b85 \u300d \u4ecd\u9999",
+          "url": "https://n.yam.com/Article/20260131502083",
+          "domain": "n.yam.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260131T0",
+          "tone": 0,
+          "socialimage": "https://imagedelivery.net/UYQOTZcPn8gGeaNtnHVGeg/e66eb2a5-d4e0-48f2-b18a-01468b259500/public"
+        },
+        {
+          "source": "GDELT",
+          "title": "Corporate Responsibility or Regulatory Failure ? ",
+          "url": "https://www.epw.in:443/journal/special-articles/corporate-responsibility-or-regulatory-failure.html",
+          "domain": "epw.in",
+          "language": "English",
+          "country": "India",
+          "date": "20260131T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Inside Apple Hidden Dependency : How Anthropic Claude Powers Cupertino AI Engine While Siri Runs on Google",
+          "url": "https://www.webpronews.com/inside-apples-hidden-dependency-how-anthropics-claude-powers-cupertinos-ai-engine-while-siri-runs-on-google/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T2",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8705-1769806635.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple AI Brain Drain Accelerates as Tech Giant Struggles to Retain Top Talent Amid Intelligence Push",
+          "url": "https://www.webpronews.com/apples-ai-brain-drain-accelerates-as-tech-giant-struggles-to-retain-top-talent-amid-intelligence-push/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T2",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8703-1769806382.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Hidden Arsenal : Tim Cook Signals Unprecedented Product Innovations Beyond AI for 2025",
+          "url": "https://www.webpronews.com/apples-hidden-arsenal-tim-cook-signals-unprecedented-product-innovations-beyond-ai-for-2025/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T2",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8681-1769799564.jpeg",
+          "positive_keywords": [
+            "innovation"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple ( NASDAQ : AAPL ) Receives  Buy  Rating from TD Cowen",
+          "url": "https://www.dailypolitical.com/2026/01/30/apple-nasdaqaapl-receives-buy-rating-from-td-cowen.html",
+          "domain": "dailypolitical.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple - 1  Prototype Board # 0  sells for $2 , 750 , 000 at auction , blows past estimates sells for 5x anticipated value , obliterates previous record",
+          "url": "https://www.tomshardware.com/desktops/apple-1-prototype-board-0-sells-for-usd2-750-000-at-auction-blows-past-estimates-sells-for-5x-anticipated-value-obliterates-previous-record",
+          "domain": "tomshardware.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://cdn.mos.cms.futurecdn.net/Hn4xhQekq3yaLfaSZUTSLZ-1920-80.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple earnings beat , iPhone strength drives optimism despite memory cost concerns",
+          "url": "https://www.proactiveinvestors.co.uk/companies/news/1086594/apple-earnings-beat-iphone-strength-drives-optimism-despite-memory-cost-concerns-1086594.html",
+          "domain": "proactiveinvestors.co.uk",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzAxXC9zaHV0dGVyc3RvY2stNjU5MDg5OTYzXzY5N2NlNTc0MzlhMjkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple earnings beat , iPhone strength drives optimism despite memory cost concerns",
+          "url": "https://www.proactiveinvestors.com/companies/news/1086594/apple-earnings-beat-iphone-strength-drives-optimism-despite-memory-cost-concerns-1086594.html",
+          "domain": "proactiveinvestors.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzAxXC9zaHV0dGVyc3RvY2stNjU5MDg5OTYzXzY5N2NlNTc0MzlhMjkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+        },
+        {
+          "source": "GDELT",
+          "title": "A million phones a day dials up record earnings for Apple",
+          "url": "https://www.nbr.co.nz/market-review/a-million-phones-a-day-dials-up-record-earnings-for-apple/",
+          "domain": "nbr.co.nz",
+          "language": "English",
+          "country": "New Zealand",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://d2xgqyuql1olth.cloudfront.net/assets/Uploads/2026-01/iphone-apple-store-WEB-002_4924.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u50b3\u860b\u679c2026\u512a\u5148\u63a8\u51fa\u9ad8\u968e\u7248iPhone \u6a19\u6e96\u7248\u5c07\u5ef6\u5f8c\u52302027 | \u4e2d\u592e\u793e | \u65b0\u805e",
+          "url": "https://www.storm.mg/article/11099594",
+          "domain": "storm.mg",
+          "language": "Chinese",
+          "country": "Madagascar",
+          "date": "20260130T1",
+          "tone": 0,
+          "socialimage": "https://images.storm.mg/cloud/dd5056cc2ee5e2804f3f25cb02634d60179efc04.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2081063%2F4hKwiv9j5x3Qz9RrJZixdbTh6xKCElNR2vKeBByW.jpg&g=no"
+        },
+        {
+          "source": "GDELT",
+          "title": "Gene Munster Says Apple Stock Tepid Reaction To Strong Earnings Beat Comes Down To One Thing : Investors Want More AI Substance - Apple ( NASDAQ : AAPL ) ",
+          "url": "https://www.benzinga.com/markets/tech/26/01/50256642/gene-munster-says-apple-stocks-tepid-reaction-to-strong-earnings-beat-comes-down-to-one-thing-invest",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://cdn.benzinga.com/files/images/story/2026/01/30/Bangkok--Thailand---October-22--2023---A.jpeg?&fit=crop"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple , Verizon And 3 Stocks To Watch Heading Into Friday - Apple ( NASDAQ : AAPL ), Chevron ( NYSE : CVX ) ",
+          "url": "https://www.benzinga.com/markets/equities/26/01/50256806/apple-verizon-and-3-stocks-to-watch-heading-into-friday",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://cdn.benzinga.com/files/images/story/2026/01/30/West-Bangal--India---April-20--2022--App.jpeg?&fit=crop"
+        },
+        {
+          "source": "GDELT",
+          "title": "Evercore Bullish on Apple ( AAPL ) as Channel Checks Signal Upside",
+          "url": "https://finance.yahoo.com/news/evercore-bullish-apple-aapl-channel-195116660.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/os/en/insidermonkey.com/81c19848a45a03d67c33dd64ad4242ee"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0645\u0627 \u0627\u0644\u0641\u0631\u0642 \u0628\u064a\u0646 \u0647\u0648\u0627\u062a\u0641 \u0622\u064a\u0641\u0648\u0646 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629 \u0648\u0627\u0644\u0623\u0648\u0631\u0648\u0628\u064a\u0629 \u061f ",
+          "url": "https://www.albayan.ae/technology/tech-radar/1038993",
+          "domain": "albayan.ae",
+          "language": "Arabic",
+          "country": "United Arab Emirates",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://www.albayan.ae/assets/images/2026/01/30/5061644.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Quote of the day by Steve Jobs :  Innovation distinguishes between a \u2026 ",
+          "url": "https://economictimes.indiatimes.com/news/international/canada/quote-of-the-day-by-steve-jobs-innovation-distinguishes-between-a/articleshow/127790542.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127790533,width-1200,height-630,imgsize-49246,overlay-economictimes/articleshow.jpg",
+          "positive_keywords": [
+            "innovation"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple achieves record holiday quarter fuelled by iPhone 17 sales",
+          "url": "https://www.thehindubusinessline.com/info-tech/apple-achieves-record-holiday-quarter-fueled-by-iphone-17-sales/article70568733.ece",
+          "domain": "thehindubusinessline.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://bl-i.thgim.com/public/incoming/j1rgwp/article70568740.ece/alternates/LANDSCAPE_1200/2026-01-30T013610Z_106298197_RC2JOGAEW5YP_RTRMADP_3_TECH-OUTLOOK-CHIP-SHORTAG.JPG"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u9047\u8a18\u61b6\u9ad4\u77ed\u7f3a \u2026 \u5c31\u6015iPhone 18\u6703\u6f32\u50f9 \uff01 \u860b\u679c\u5eab\u514b\u51fa\u62db\u6297\u6f32\u8a9e\u5e36\u7384\u6a5f | \u624b\u6a5f\u901a\u8a0a",
+          "url": "https://tech.udn.com/tech/story/123151/9298483",
+          "domain": "tech.udn.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://uc.udn.com.tw/photo/2026/01/30/0/34330024.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple posts record sales in India with strong growth across iPhone , Mac , iPad , and services",
+          "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-posts-record-sales-in-india-with-strong-growth-across-iphone-mac-ipad-and-services/articleshow/127789946.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127789925,width-1200,height-630,imgsize-48804,overlay-economictimes/articleshow.jpg",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "iPhone\u9700\u6c42 \u300c \u9a5a\u4eba \u300d\u3001 \u860b\u679c\u71df\u6536\u5927\u589e16 % \u6fc0\u52f5\u80a1\u50f9\u76e4\u5f8c\u8d70\u63da \u4f46\u5eab\u514b\u5766\u8a00\u64d4\u6182\u4e00\u4ef6\u4e8b | \u8ca1\u7d93",
+          "url": "https://newtalk.tw/news/view/2026-01-30/1017628",
+          "domain": "newtalk.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://s.newtalk.tw/album/news/1005/694b6bdc5a47d.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Chip Crunch : iPhone Boom Meets AI Supply Squeeze",
+          "url": "https://www.webpronews.com/apples-chip-crunch-iphone-boom-meets-ai-supply-squeeze/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8599-1769738930.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "iPhone Boom Fuels Apple Record , Yet Wall Street Shrugs Off Earnings Triumph",
+          "url": "https://www.webpronews.com/iphone-boom-fuels-apple-record-yet-wall-street-shrugs-off-earnings-triumph/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8597-1769738457.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "S & P 500 , Nasdaq close down as Big Tech soaring AI budgets trigger flight",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sp-500-nasdaq-close-down-as-big-techs-soaring-ai-budgets-trigger-flight/articleshow/127788960.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127788974,width-1200,height-630,imgsize-341816,overlay-etmarkets/articleshow.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u860b\u679c\u65a5\u8cc7 20 \u5104\u7f8e\u5143\u6536\u8cfc\u4ee5\u8272\u5217\u65b0\u5275 Q . ai \uff0c \u7784\u6e96 AirPods \u8207 Vision Pro \u6280\u8853\u5347\u7d1a",
+          "url": "https://technews.tw/2026/01/30/apple-drops-2-billion-on-israeli-ai-facial-tracking-company/",
+          "domain": "technews.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.technews.tw/wp-content/uploads/2026/01/30092204/daniel-romero-AgLMrojqjAM-unsplash.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "US stock futures fall on Apple warning , gold up",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/us-stock-futures-fall-on-apple-warning-gold-up/articleshow/127788649.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127788655,width-1200,height-630,imgsize-152784,overlay-etmarkets/articleshow.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u860b\u679c\u5b63\u7e3e\u52dd\u9810\u671f iPhone\u92b7\u552e\u5927\u589e23 % \u4e2d\u570b\u5e02\u5834\u8868\u73fe\u5f37\u52c1",
+          "url": "https://finance.now.com/news/post.php?id=957851",
+          "domain": "finance.now.com",
+          "language": "Chinese",
+          "country": "China",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "US Stock Futures Fall on Apple Warning , Gold Up : Markets Wrap",
+          "url": "https://www.swissinfo.ch/eng/us-stock-futures-fall-on-apple-warning%2c-gold-up%3a-markets-wrap/90859616",
+          "domain": "swissinfo.ch",
+          "language": "English",
+          "country": "Switzerland",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://www.swissinfo.ch/eng/wp-content/uploads/swissinfo-theme/swi-fallback-featured-image.jpg?ver=1764672520"
+        },
+        {
+          "source": "GDELT",
+          "title": "US Stocks traded mixed as participants reflected on several Mag 7 earnings - Newsquawk Asia - Pac Market Open",
+          "url": "https://www.zerohedge.com/markets/us-stocks-traded-mixed-participants-reflected-several-mag-7-earnings-newsquawk-asia-pac",
+          "domain": "zerohedge.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://assets.zerohedge.com/s3fs-public/styles/16_9_max_700/public/2026-01/Asia-Pac-Opening-News_18.png?itok=-qDzTn4V"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Q1 Earnings Call Highlights",
+          "url": "https://www.themarketsdaily.com/2026/01/29/apple-q1-earnings-call-highlights.html",
+          "domain": "themarketsdaily.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple posts record quarter on soaring iPhone sales",
+          "url": "https://www.proactiveinvestors.com/companies/news/1086515/apple-posts-record-quarter-on-soaring-iphone-sales-1086515.html",
+          "domain": "proactiveinvestors.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzAxXC8yMDI1LTExLTEwLTE0LTU5LTIyLTUxMjgzMzA1MjhjYTg1ZjVlZThlNzkzYTVmNjMwYmY2XzY5N2JkNGI4YmUzZDkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+        },
+        {
+          "source": "GDELT",
+          "title": "S & P 500 , Nasdaq close down as Big Tech soaring AI budgets trigger flight",
+          "url": "https://www.marketscreener.com/news/us-stock-index-futures-edge-up-as-markets-digest-big-tech-earnings-ce7e5bded180f225",
+          "domain": "marketscreener.com",
+          "language": "English",
+          "country": "",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://cdn.zonebourse.com/static/resize/0/0/images/reuters/2026-01/2026-01-29T104758Z_1_LYNXMPEM0S0MX_RTROPTP_4_USA-STOCKS.JPG"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple posts record quarter on soaring iPhone sales",
+          "url": "https://www.proactiveinvestors.co.uk/companies/news/1086515/apple-posts-record-quarter-on-soaring-iphone-sales-1086515.html",
+          "domain": "proactiveinvestors.co.uk",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzAxXC8yMDI1LTExLTEwLTE0LTU5LTIyLTUxMjgzMzA1MjhjYTg1ZjVlZThlNzkzYTVmNjMwYmY2XzY5N2JkNGI4YmUzZDkuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjAwLCJoZWlnaHQiOjYzMCwiZml0IjoiY292ZXIifX19"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Inc . Profit Advances In Q1",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-01/67566023-apple-inc-profit-advances-in-q1-020.htm",
+          "domain": "finanznachrichten.de",
+          "language": "English",
+          "country": "Germany",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://www.finanznachrichten.de/chart-apple-inc-aktie-intraday-tradegate.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "Norway sovereign wealth fund reports $247 billion profit",
+          "url": "https://www.bursa.ro/norways-sovereign-wealth-fund-reports-$247-billion-profit-21642856",
+          "domain": "bursa.ro",
+          "language": "English",
+          "country": "Romania",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://www.bursa.ro/_img/articole/mare/582461.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Surpasses Wall Street Estimates with Strong iPhone Sales Boost",
+          "url": "https://www.el-balad.com/6837268",
+          "domain": "el-balad.com",
+          "language": "English",
+          "country": "Egypt",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://www.el-balad.com/uploads/images/202601/image_1200x675_697bd778e6304.webp"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Blows Past Q1 Earnings Estimates On  Unprecedented  iPhone Demand , Active Installed Base Crosses 2 . 5 Billion - Apple ( NASDAQ : AAPL ) ",
+          "url": "https://www.benzinga.com/markets/earnings/26/01/50251882/apple-blows-past-q1-earnings-estimates-on-unprecedented-iphone-demand-active-installed-base-crosses-2-5-billion",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://cdn.benzinga.com/files/images/story/2026/01/29/New-York---July-21-Apple-Store-On-Fifth-_0.jpeg?&fit=crop"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u062a\u0642\u0646\u064a\u0629 \u062c\u062f\u064a\u062f\u0629 \u0641\u064a \u200fiPhone 18\u200e\u200f \u062a\u0634\u0643\u0644 \u0646\u0642\u0644\u0629 \u0641\u064a \u0642\u062f\u0631\u0627\u062a \u0627\u0644\u062a\u0635\u0648\u064a\u0631 \u0644\u0644\u0647\u0648\u0627\u062a\u0641 \u0627\u0644\u0630\u0643\u064a\u0629",
+          "url": "https://www.albayan.ae/technology/personal-tech/electronics/1037997",
+          "domain": "albayan.ae",
+          "language": "Arabic",
+          "country": "United Arab Emirates",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://www.albayan.ae/assets/images/2026/01/29/5061266.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple acquires Israeli AI startup Q . ai in major deal",
+          "url": "https://www.israelnationalnews.com/news/421687",
+          "domain": "israelnationalnews.com",
+          "language": "English",
+          "country": "Israel",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://2.a7.org/files/pictures/000/1198659.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Why Taiwan Semiconductor Capacity Nightmare Is Intel Foundry Dream - Intel ( NASDAQ : INTC ) ",
+          "url": "https://www.benzinga.com/markets/tech/26/01/50244148/why-taiwan-semiconductors-capacity-nightmare-is-intels-foundry-dream",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Buys Israeli AI Startup That Interprets Facial Movements",
+          "url": "https://www.bloomberg.com:443/news/articles/2026-01-29/apple-buys-israeli-ai-startup-that-interprets-facial-movements",
+          "domain": "bloomberg.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T2",
+          "tone": 0,
+          "socialimage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/izmqbO5jA6Ps/v1/1200x800.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Acquires Audio AI Startup Q . AI : What Investors Need To Know - Apple ( NASDAQ : AAPL ) ",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/01/50242794/apple-acquires-audio-ai-startup-q-ai-what-investors-need-to-know",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Earnings Are Imminent ; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Apple ( NASDAQ : AAPL ) ",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/01/50229131/apple-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-2",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://www.benzinga.com/next-assets/images/benzinga-schema-image-default.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0e14\u0e32\u0e27\u0e42\u0e08\u0e19\u0e2a\u0e4c\u0e1e\u0e38\u0e48\u0e07\u0e40\u0e01\u0e37\u0e2d\u0e1a 200 \u0e08\u0e38\u0e14 \u0e08\u0e31\u0e1a\u0e15\u0e32\u0e1c\u0e25\u0e1b\u0e23\u0e30\u0e01\u0e2d\u0e1a\u0e01\u0e32\u0e23\u0e01\u0e25\u0e38\u0e48\u0e21\u0e40\u0e17\u0e04\u0e2f",
+          "url": "https://www.ryt9.com/s/iq18/12785108",
+          "domain": "ryt9.com",
+          "language": "Thai",
+          "country": "Thailand",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Tsai Capital : Apple ( AAPL ) Remains one of the Highest - Quality Businesses on the Planet",
+          "url": "https://www.insidermonkey.com/blog/tsai-capital-apple-aapl-remains-one-of-the-highest-quality-businesses-on-the-planet-1684012/",
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/13040841/AAPL-imagemaker-1694592519294.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "How To Trade SPY , QQQ , AAPL , MSFT , NVDA , GOOGL , META , TSLA Using Technical Analysis",
+          "url": "https://www.benzinga.com/Opinion/26/01/50232391/how-to-trade-spy-qqq-aapl-msft-nvda-googl-meta-tsla-using-technical-analysis-31",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://www.benzinga.com/next-assets/images/benzinga-schema-image-default.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "Nasdaq 100 gets hit as Microsoft sinks on results",
+          "url": "https://www.moneycontrol.com/news/business/markets/nasdaq-100-gets-hit-as-microsoft-sinks-on-results-13798183.html",
+          "domain": "moneycontrol.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://images.moneycontrol.com/static-mcnews/2026/01/20260128152350_wall-street.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Business Brief : Steady rates in uncertain times",
+          "url": "https://www.theglobeandmail.com/business/article-business-brief-steady-rates-in-uncertain-times/",
+          "domain": "theglobeandmail.com",
+          "language": "English",
+          "country": "Canada",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://www.theglobeandmail.com/resizer/v2/SEFX3HO3RJB4JMRC3647GLTGME.JPG?auth=2475aa67efaf94f92cd6fb1291b22bc52dd5c7110c04dea008ed3904404be459&quality=80&smart=true"
+        },
+        {
+          "source": "GDELT",
+          "title": "Canada food inflation runs hotter other many other nations",
+          "url": "https://windsorstar.com:443/news/economy/canadians-food-inflation-runs-hotter-other-nations",
+          "domain": "windsorstar.com",
+          "language": "English",
+          "country": "Canada",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Before the Bell : What every Canadian investor needs to know today",
+          "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/article-before-the-bell-what-every-canadian-investor-needs-to-know-today-1403/",
+          "domain": "theglobeandmail.com",
+          "language": "English",
+          "country": "Canada",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": "https://www.theglobeandmail.com/resizer/v2/4GW3BMJMLJGDFB4DHG77VNSRYI.JPG?auth=85cbc198800785747fb00e7dec5f054780b7cf6ce980b684a70302a2168cf972&quality=80&smart=true"
+        },
+        {
+          "source": "GDELT",
+          "title": "Strategic Planning Group LLC Raises Stake in Apple Inc . $AAPL",
+          "url": "https://www.themarketsdaily.com/2026/01/29/strategic-planning-group-llc-raises-stake-in-apple-inc-aapl.html",
+          "domain": "themarketsdaily.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T1",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Tesla Price Targets Rise Even as Its Profit Outlook Tanks",
+          "url": "https://finance.yahoo.com/news/tesla-price-target-rising-even-112716958.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/ny/api/res/1.2/eShEvtx2F8MmP5BbVCHpoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_holding_pen_162/6a7cb34c63337deae4f9f77b81d3acc7"
+        },
+        {
+          "source": "GDELT",
+          "title": "Do Wall Street Analysts Like Apple Stock ? ",
+          "url": "https://finance.yahoo.com/news/wall-street-analysts-apple-stock-173657835.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/os/en/barchart_com_477/0ebcb181fa5c1dc0fd30a445fb867adb"
+        },
+        {
+          "source": "GDELT",
+          "title": "Intel Corp ( INTC ) Climbs 11 % on Nvidia , Apple Order Buzz",
+          "url": "https://www.insidermonkey.com/blog/intel-corp-intc-climbs-11-on-nvidia-apple-order-buzz-1683581/",
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Intel Corp ( INTC ) Climbs 11 % on Nvidia , Apple Order Buzz",
+          "url": "https://finance.yahoo.com/news/intel-corp-intc-climbs-11-025813345.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/os/en/insidermonkey.com/54525db0e34baf933a1af19a9885fad1"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0633\u0639\u0631 iPhone 16 Pro Max \u064a\u0628\u062f\u0623 \u0645\u0646 5500 \u0631\u064a\u0627\u0644 \u0641\u064a \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+          "url": "https://www.elmawkefalarabi.com/news/news-20260129215005",
+          "domain": "elmawkefalarabi.com",
+          "language": "Arabic",
+          "country": "Egypt",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://www.elmawkefalarabi.com/wp-content/uploads/2026/01/d8b3d8b9d8b1-d8a7d98ad981d988d986-d9a1d9a6-d8a8d8b1d988-d985d8a7d983d8b3-featured-1769639542-1024x585.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "2026 Consumer Internet of Things ( IoT ) Industry Outlook : Key Drivers , Opportunities , and Growth Strategy",
+          "url": "https://whatech.com/og/markets-research/it/1009318-2026-consumer-internet-of-things-iot-industry-outlook-key-drivers-opportunities-and-growth-strategy.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "The $2 . 2 trillion Sovereign Wealth Fund of Norway is trimming stakes in US tech stocks",
+          "url": "https://www.cnbctv18.com/market/norway-sovereign-wealth-fund-trimming-stake-in-big-tech-nvidia-apple-microsoft-amazon-portfolio-value-aum-stocks-19835287.htm",
+          "domain": "cnbctv18.com",
+          "language": "English",
+          "country": "",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://images.cnbctv18.com/uploads/2026/01/20250315034541_sensex_stocks_nifty.jpg?im=FitAndFill,width=500,height=300"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple App Store Gatekeeper Role Questioned as AI - Powered Undressing Apps Proliferate Despite Review Process",
+          "url": "https://www.webpronews.com/apples-app-store-gatekeeper-role-questioned-as-ai-powered-undressing-apps-proliferate-despite-review-process/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8394-1769649311.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Faces Mounting Pressure as 37 States Demand Action on Grok Child Safety Crisis",
+          "url": "https://www.webpronews.com/apple-faces-mounting-pressure-as-37-states-demand-action-on-groks-child-safety-crisis/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8403-1769650397.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Wall Street bets a rally in riskiest stocks has staying power",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-bets-a-rally-in-riskiest-stocks-has-staying-power/articleshow/127746378.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127746348,width-1200,height-630,imgsize-201068,overlay-etmarkets/articleshow.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Ex Parte Reexamination and Inter Partes Review Combination",
+          "url": "https://natlawreview.com/article/overlooked-powerful-ex-parte-reexamination-and-inter-partes-review-combination",
+          "domain": "natlawreview.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T2",
+          "tone": 0,
+          "socialimage": "https://natlawreview.com/sites/default/files/styles/article_image/public/2026-01/intellectual%20property%20IP%20regulation%20copyright%20patent%20infringement%20trademark.jpg.webp?itok=F8m5Fbdc"
+        },
+        {
+          "source": "GDELT",
+          "title": "Evercore Bullish on Apple ( AAPL ) as Channel Checks Signal Upside",
+          "url": "https://www.insidermonkey.com/blog/evercore-bullish-on-apple-aapl-as-channel-checks-signal-upside-1683361/",
+          "domain": "insidermonkey.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T2",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "OpenAI CEO Sam Altman joins tech leaders condemning ICE violence",
+          "url": "https://www.latimes.com/business/story/2026-01-28/openai-ceo-sam-altman-joins-tech-leaders-condemning-ice-violence",
+          "domain": "latimes.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": "https://california-times-brightspot.s3.amazonaws.com/98/78/6d2edd9b47a9911edd4c3e535318/chatgpt-altman-10947.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Microsoft and\u00a0Meta earnings put a focus on payoffs from AI spending",
+          "url": "https://www.mercurynews.com/2026/01/28/microsoft-meta-earnings-ai-spending/",
+          "domain": "mercurynews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": "https://www.mercurynews.com/wp-content/uploads/2025/01/Meta_63429_b69e38.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "FinancialContent - PayPal ( PYPL ) 2026 : The  Sleeping Giant  Awakens for Growth Recovery",
+          "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-28-paypal-pypl-2026-the-sleeping-giant-awakens-for-growth-recovery",
+          "domain": "markets.financialcontent.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": "https://news.finterra.ai/wp-content/uploads/2026/01/c6f85755-dc79-43d3-a682-1a80805bf6e1-1024x683.png",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Jim Cramer Says  Im Not Changing My View , I Say , Own Apple , Dont Trade It  ",
+          "url": "https://finance.yahoo.com/news/jim-cramer-says-m-not-023322336.html",
+          "domain": "finance.yahoo.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": "https://s.yimg.com/ny/api/res/1.2/cVvSOEVgXXeSO16E_nX5FQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/insidermonkey.com/abe42548427d5976d59895bbd8b8797c"
+        },
+        {
+          "source": "GDELT",
+          "title": "European Shares Seen Mixed At Open",
+          "url": "https://www.rttnews.com/story.aspx?Id=3614030",
+          "domain": "rttnews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "European Shares Seen Mixed At Open",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-01/67542750-european-shares-seen-mixed-at-open-020.htm",
+          "domain": "finanznachrichten.de",
+          "language": "English",
+          "country": "Germany",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://www.finanznachrichten.de/content/g/fb.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "European Shares Seen Mixed At Open",
+          "url": "https://www.rttnews.com/3614030/european-shares-seen-mixed-at-open.aspx",
+          "domain": "rttnews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Rumoured to Launch 20+ New Products in 2026 What It Means for Buyers",
+          "url": "https://www.ibtimes.co.uk/apple-rumoured-launch-20-new-products-2026-what-it-means-buyers-1774321",
+          "domain": "ibtimes.co.uk",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://d.ibtimes.co.uk/en/full/1765742/apple-intelligence-language-update.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0622\u064a\u0641\u0648\u0646 17 \u0628\u0631\u0648 : \u062a\u062d\u0633\u064a\u0646\u0627\u062a \u0643\u0628\u064a\u0631\u0629 \u0641\u064a \u0623\u062f\u0627\u0621 \u0627\u0644\u0643\u0627\u0645\u064a\u0631\u0627 \u0648\u0633\u0631\u0639\u0629 \u0627\u0644\u0645\u0639\u0627\u0644\u062c",
+          "url": "https://www.elmawkefalarabi.com/news/news-20260128214627",
+          "domain": "elmawkefalarabi.com",
+          "language": "Arabic",
+          "country": "Egypt",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://www.elmawkefalarabi.com/wp-content/uploads/2026/01/iphone-17-pro-featured-1769567541-1024x585.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0623\u062d\u0645\u0631 \u0648\u0623\u0632\u0631\u0642 \u0648\u0623\u0628\u064a\u0636 : \u0623\u0644\u0648\u0627\u0646 \u0622\u064a\u0641\u0648\u0646 17 \u0627\u0644\u062c\u062f\u064a\u062f\u0629",
+          "url": "https://www.elmawkefalarabi.com/news/news-20260128214573",
+          "domain": "elmawkefalarabi.com",
+          "language": "Arabic",
+          "country": "Egypt",
+          "date": "20260128T0",
+          "tone": 0,
+          "socialimage": "https://www.elmawkefalarabi.com/wp-content/uploads/2026/01/d8a7d984d988d8a7d986-d8a7d98ad981d988d986-d9a1d9a7-featured-1769556726-1024x585.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Personal Artificial Intelligence ( AI ) Assistant Industry Outlook to 2026 : Future Trends and Growth Forecasts through 2035",
+          "url": "https://whatech.com/og/markets-research/it/1009190-personal-artificial-intelligence-ai-assistant-industry-outlook-to-2026-future-trends-and-growth-forecasts-through-2035.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Exploring the Future : 2026 Fin Field - Effect Transistor ( FinFET ) 3D Transistors Market Overview and Growth Projections Through 2035 In The Latest Report",
+          "url": "https://whatech.com/og/markets-research/it/1009200-exploring-the-future-2026-fin-field-effect-transistor-finfet-3d-transistors-market-overview-and-growth-projections-through-2035.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Samsung TriFold phone will cost $2 , 899 in US and launch on Jan 30",
+          "url": "https://www.thehindubusinessline.com/info-tech/mobiles-tablets/samsungs-trifold-phone-will-cost-2899-in-us-and-launch-on-jan-30/article70557560.ece",
+          "domain": "thehindubusinessline.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://bl-i.thgim.com/public/incoming/7o3uxd/article70557563.ece/alternates/LANDSCAPE_1200/2025-12-02T013736Z_145011038_RC2Z7IADYLO0_RTRMADP_3_SAMSUNG-ELEC-SMARTPHONE.JPG"
+        },
+        {
+          "source": "GDELT",
+          "title": "FinancialContent - The Spring Sell - Off of 2025 : A Retrospective on the Magnificent 7 Great Recalibration",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-27-the-spring-sell-off-of-2025-a-retrospective-on-the-magnificent-7s-great-recalibration",
+          "domain": "markets.financialcontent.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://marketminute.ghost.io/content/images/size/w1200/2026/01/2fc16139-b1a1-43cb-901c-8d297a1c5559.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u7f8e\u80a1\u65e9\u76e4 \uff0f \u9053\u74ca\u53d7\u9019\u56e0\u7d20\u800c\u4e0b\u8dcc \u79d1\u6280\u80a1\u7e7c\u7e8c\u885d \u5eb7\u5be7\u596a\u5149\u7e96\u5927\u55ae\u80a1\u50f9\u98c6 | \u7f8e\u80a1\u52d5\u614b | \u570b\u969b",
+          "url": "https://money.udn.com/money/story/123398/9292577",
+          "domain": "money.udn.com",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://uc.udn.com.tw/photo/2026/01/27/realtime/34309781.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "FinancialContent - Apple Inc . ( AAPL ) Deep Dive : The AI Supercycle and the Road to the 2026 Earnings Report",
+          "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-27-apple-inc-aapl-deep-dive-the-ai-supercycle-and-the-road-to-the-2026-earnings-report",
+          "domain": "markets.financialcontent.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://news.finterra.ai/wp-content/uploads/2026/01/6dc4709c-f167-4c3c-82d9-058222da7693-1024x683.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "FinancialContent - Soft Landing in Sight : January PCE Data Confirms Cooling Inflation as Markets Eye Fed Rate Cuts",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-27-soft-landing-in-sight-january-pce-data-confirms-cooling-inflation-as-markets-eye-fed-rate-cuts",
+          "domain": "markets.financialcontent.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://marketminute.ghost.io/content/images/size/w1200/2026/01/a0df54d7-f637-43bd-9664-82f6650c5d8c.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u4e09\u661f\u548cSK\u6d77\u529b\u58eb\u524a\u7206 \u300c \u860b\u679c\u8ca1 \u300d \u6d88\u8cbb\u8005\u8377\u5305\u537b\u8981\u5931\u8840\u4e86",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5324134",
+          "domain": "ec.ltn.com.tw",
+          "language": "Chinese",
+          "country": "Taiwan",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://img.ltn.com.tw/Upload/business/page/800/2026/01/27/phpao4tH3.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "AirTag 2 \u064a\u0631\u0649 \u0627\u0644\u0646\u0648\u0631 : \u0623\u0628\u0644 \u062a\u0639\u0632\u0632 \u0627\u0644\u0646\u0637\u0627\u0642 \u0648\u062a\u0631\u0641\u0639 \u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u0635\u0648\u062a",
+          "url": "https://www.raya.ps/news/1210516.html",
+          "domain": "raya.ps",
+          "language": "Arabic",
+          "country": "Israel",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://www.raya.ps/cached_uploads/resize/650/315/2026/01/27/capture-png-1769509645.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0622\u0628\u0644 \u062a\u0636\u064a\u0641 \u0637\u0631\u064a\u0642\u0629 \u062c\u062f\u064a\u062f\u0629 \u0644\u0645\u0633\u062d \u0633\u062c\u0644 \u0627\u0644\u0628\u062d\u062b \u0641\u064a \u0633\u0641\u0627\u0631\u064a \u0639\u0644\u0649 \u0622\u064a\u0641\u0648\u0646",
+          "url": "https://www.raya.ps/news/1210517.html",
+          "domain": "raya.ps",
+          "language": "Arabic",
+          "country": "Israel",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "https://www.raya.ps/cached_uploads/resize/650/315/2026/01/27/capture-png-1769509804.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0b85\u0b9a\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd \u0b85\u0baa\u0bcd\u0b9f\u0bc7\u0b9f\u0bcd\u0b95\u0bb3\u0bc1\u0b9f\u0ba9\u0bcd 2nd Gen \u0b86\u0baa\u0bcd\u0baa\u0bbf\u0bb3\u0bcd \u0b8f\u0bb0\u0bcd\u0b9f\u0bc7\u0b95\u0bcd \u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf\u0bbe\u0bb5\u0bbf\u0bb2\u0bcd \u0b85\u0bb1\u0bbf\u0bae\u0bc1\u0b95\u0bae\u0bcd !- Apple Launches Second - Generation AirTag With Higher Precision Finding Range , Louder Speaker",
+          "url": "https://www.maalaimalar.com:443/technology/techfacts/apple-launches-second-generation-airtag-with-higher-precision-finding-range-louder-speaker-806885",
+          "domain": "maalaimalar.com",
+          "language": "Tamil",
+          "country": "India",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://media.maalaimalar.com/h-upload/2026/01/27/25453373-apple.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Surprise iOS 26 . 2 . 1 Update Adds Features Beyond Expected Bug Fixes",
+          "url": "https://www.ibtimes.co.uk/apples-surprise-ios-2621-update-adds-features-beyond-expected-bug-fixes-1774000",
+          "domain": "ibtimes.co.uk",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://d.ibtimes.co.uk/en/full/1774298/iphone-18-rumour-apple-finally-adds-camera-feature-samsung-ditched.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "\u0622\u064a\u0641\u0648\u0646 17 \u0628\u0631\u0648 : 4 \u062a\u062d\u0633\u064a\u0646\u0627\u062a \u0631\u0626\u064a\u0633\u064a\u0629 \u0641\u064a \u0623\u062f\u0627\u0621 \u0627\u0644\u0643\u0627\u0645\u064a\u0631\u0627",
+          "url": "https://www.elmawkefalarabi.com/news/news-20260127214109",
+          "domain": "elmawkefalarabi.com",
+          "language": "Arabic",
+          "country": "Egypt",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://www.elmawkefalarabi.com/wp-content/uploads/2026/01/d8a7d98ad981d988d986-17-d8a8d8b1d988-featured-1769472141-1024x585.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Kia Announces Pricing for 2026 Niro EV",
+          "url": "https://cleantechnica.com/2026/01/26/kia-announces-pricing-for-2026-niro-ev/",
+          "domain": "cleantechnica.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://cleantechnica.com/wp-content/uploads/2026/01/2026-Kia-Niro-EV.png"
+        },
+        {
+          "source": "GDELT",
+          "title": "US close : Stocks higher as traders await FOMC decision , tech earnings",
+          "url": "https://www.sharecast.com/news/market-report-us-close/us-close-stocks-higher-as-traders-await-fomc-decision-tech-earnings--21554310.html",
+          "domain": "sharecast.com",
+          "language": "English",
+          "country": "United Kingdom",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": ""
+        },
+        {
+          "source": "GDELT",
+          "title": "Trump Premieres  Melania  At White House With Special Guests Tim Cook , Andy Jassy : Low Ticket Sales Reported - Amazon . com ( NASDAQ : AMZN ) ",
+          "url": "https://www.benzinga.com/news/entertainment/26/01/50145249/trump-makes-rare-post-on-x-to-promote-wifes-amazon-documentary-president-may-not-like-box-offi",
+          "domain": "benzinga.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://cdn.benzinga.com/files/images/story/2026/01/26/Donald-Trump-and-Melania-Trump-At-The-20.jpeg?&fit=crop"
+        },
+        {
+          "source": "GDELT",
+          "title": "Kia Announces Pricing for 2026 Niro EV",
+          "url": "https://www.ieyenews.com/kia-announces-pricing-for-2026-niro-ev/",
+          "domain": "ieyenews.com",
+          "language": "English",
+          "country": "Cayman Islands",
+          "date": "20260127T0",
+          "tone": 0,
+          "socialimage": "https://www.ieyenews.com/wp-content/uploads/2026/01/unnamed-78.jpg"
+        },
+        {
+          "source": "GDELT",
+          "title": "The Thin Red Line : How a Slimmer iPhone Camera Could Finally Unlock Face ID for Apple Laptops",
+          "url": "https://www.webpronews.com/the-thin-red-line-how-a-slimmer-iphone-camera-could-finally-unlock-face-id-for-apples-laptops/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260126T1",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-7933-1769451299.jpeg"
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple Unlikely Android Gambit : How High - Fidelity Audio is Forging a New Front in the Streaming Wars",
+          "url": "https://www.webpronews.com/apples-unlikely-android-gambit-how-high-fidelity-audio-is-forging-a-new-front-in-the-streaming-wars/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260126T1",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-7957-1769454674.jpeg"
+        }
+      ],
+      "adverse_media": [],
+      "positive_media": [
+        {
+          "source": "GDELT",
+          "title": "Apple Hidden Arsenal : Tim Cook Signals Unprecedented Product Innovations Beyond AI for 2025",
+          "url": "https://www.webpronews.com/apples-hidden-arsenal-tim-cook-signals-unprecedented-product-innovations-beyond-ai-for-2025/",
+          "domain": "webpronews.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260130T2",
+          "tone": 0,
+          "socialimage": "https://www.webpronews.com/wp-content/uploads/2026/01/article-8681-1769799564.jpeg",
+          "positive_keywords": [
+            "innovation"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Quote of the day by Steve Jobs :  Innovation distinguishes between a \u2026 ",
+          "url": "https://economictimes.indiatimes.com/news/international/canada/quote-of-the-day-by-steve-jobs-innovation-distinguishes-between-a/articleshow/127790542.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127790533,width-1200,height-630,imgsize-49246,overlay-economictimes/articleshow.jpg",
+          "positive_keywords": [
+            "innovation"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Apple posts record sales in India with strong growth across iPhone , Mac , iPad , and services",
+          "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/apple-posts-record-sales-in-india-with-strong-growth-across-iphone-mac-ipad-and-services/articleshow/127789946.cms",
+          "domain": "economictimes.indiatimes.com",
+          "language": "English",
+          "country": "India",
+          "date": "20260130T0",
+          "tone": 0,
+          "socialimage": "https://img.etimg.com/thumb/msid-127789925,width-1200,height-630,imgsize-48804,overlay-economictimes/articleshow.jpg",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "2026 Consumer Internet of Things ( IoT ) Industry Outlook : Key Drivers , Opportunities , and Growth Strategy",
+          "url": "https://whatech.com/og/markets-research/it/1009318-2026-consumer-internet-of-things-iot-industry-outlook-key-drivers-opportunities-and-growth-strategy.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260129T0",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "FinancialContent - PayPal ( PYPL ) 2026 : The  Sleeping Giant  Awakens for Growth Recovery",
+          "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-28-paypal-pypl-2026-the-sleeping-giant-awakens-for-growth-recovery",
+          "domain": "markets.financialcontent.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260128T1",
+          "tone": 0,
+          "socialimage": "https://news.finterra.ai/wp-content/uploads/2026/01/c6f85755-dc79-43d3-a682-1a80805bf6e1-1024x683.png",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Personal Artificial Intelligence ( AI ) Assistant Industry Outlook to 2026 : Future Trends and Growth Forecasts through 2035",
+          "url": "https://whatech.com/og/markets-research/it/1009190-personal-artificial-intelligence-ai-assistant-industry-outlook-to-2026-future-trends-and-growth-forecasts-through-2035.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        },
+        {
+          "source": "GDELT",
+          "title": "Exploring the Future : 2026 Fin Field - Effect Transistor ( FinFET ) 3D Transistors Market Overview and Growth Projections Through 2035 In The Latest Report",
+          "url": "https://whatech.com/og/markets-research/it/1009200-exploring-the-future-2026-fin-field-effect-transistor-finfet-3d-transistors-market-overview-and-growth-projections-through-2035.html",
+          "domain": "whatech.com",
+          "language": "English",
+          "country": "United States",
+          "date": "20260127T1",
+          "tone": 0,
+          "socialimage": "",
+          "positive_keywords": [
+            "growth"
+          ]
+        }
+      ],
+      "by_source": {
+        "webpronews.com": 9,
+        "benzinga.com": 8,
+        "finance.yahoo.com": 7,
+        "economictimes.indiatimes.com": 5,
+        "elmawkefalarabi.com": 4,
+        "markets.financialcontent.com": 4,
+        "insidermonkey.com": 3,
+        "whatech.com": 3,
+        "proactiveinvestors.co.uk": 2,
+        "proactiveinvestors.com": 2,
+        "albayan.ae": 2,
+        "thehindubusinessline.com": 2,
+        "themarketsdaily.com": 2,
+        "finanznachrichten.de": 2,
+        "theglobeandmail.com": 2,
+        "rttnews.com": 2,
+        "ibtimes.co.uk": 2,
+        "raya.ps": 2,
+        "wctrib.com": 1,
+        "taipeitimes.com": 1
+      },
+      "by_month": {
+        "2026013": 39,
+        "2026012": 61
+      },
+      "sentiment_summary": {
+        "adverse": 0,
+        "positive": 7,
+        "neutral": 93
+      },
+      "key_topics": [],
+      "timeline": [
+        {
+          "month": "2026012",
+          "count": 61
+        },
+        {
+          "month": "2026013",
+          "count": 39
+        }
+      ]
+    }
+  },
+  "related_entities": [
+    {
+      "type": "political_donor",
+      "description": "Significant political contributions",
+      "significance": "Political activity detected",
+      "confidence": "HIGH"
+    }
+  ],
+  "red_flags": [],
+  "summary": {
+    "target": "Apple Inc",
+    "target_type": "company",
+    "research_date": "2026-01-31T18:58:38.074372",
+    "total_data_sources_queried": 6,
+    "successful_queries": 6,
+    "related_entities_found": 1,
+    "red_flags_count": 0,
+    "red_flags_by_severity": {
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "risk_assessment": {
+      "score": 0,
+      "level": "MINIMAL RISK",
+      "recommendation": "No significant concerns identified"
+    }
+  }
+}
