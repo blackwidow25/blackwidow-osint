@@ -1,15 +1,11 @@
-"""
-Report Generator - Creates Word document reports
-"""
-
-import os
 from datetime import datetime
-from pathlib import Path
+import os
 
 try:
     from docx import Document
-    from docx.shared import Inches, Pt
+    from docx.shared import Inches, Pt, RGBColor
     from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.enum.table import WD_TABLE_ALIGNMENT
     DOCX_AVAILABLE = True
 except ImportError:
     DOCX_AVAILABLE = False
@@ -20,113 +16,187 @@ class ReportGenerator:
         self.report_date = datetime.now().strftime('%Y-%m-%d')
         self.output_dir = os.path.expanduser('~/Desktop/OSINT_Reports')
         os.makedirs(self.output_dir, exist_ok=True)
-        
+    
     def generate_text_report(self, findings, output_path):
-        """Generate Word document report"""
         target = findings.get('target', 'Unknown')
-        target_type = findings.get('target_type', 'company')
-        summary = findings.get('summary', {})
-        risk = summary.get('risk_assessment', {})
         
         if DOCX_AVAILABLE:
-            return self._generate_docx(findings, target)
+            return self._generate_docx(findings)
         else:
-            return self._generate_txt(findings, output_path)
+            return self._generate_txt(findings)
     
-    def _generate_docx(self, findings, target):
-        """Generate a Word document"""
+    def _generate_docx(self, findings):
         doc = Document()
         
-        target_type = findings.get('target_type', 'company')
+        target = findings.get('target', 'Unknown')
         summary = findings.get('summary', {})
         risk = summary.get('risk_assessment', {})
+        risk_scores = summary.get('risk_scores', {})
+        red_flags = summary.get('red_flags', [])
         
         # Title
         title = doc.add_heading('BLACK WIDOW GLOBAL', 0)
         title.alignment = WD_ALIGN_PARAGRAPH.CENTER
         
-        subtitle = doc.add_heading('INTELLIGENCE DOSSIER', level=1)
+        subtitle = doc.add_heading('CONFIDENTIAL INTELLIGENCE DOSSIER', level=1)
         subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
         
         doc.add_paragraph()
         
-        # Subject info
-        doc.add_heading('Subject Information', level=2)
-        doc.add_paragraph(f"Target: {target}")
-        doc.add_paragraph(f"Type: {target_type.title()}")
+        # Target Info
+        doc.add_heading(f'Subject: {target}', level=1)
         doc.add_paragraph(f"Report Date: {self.report_date}")
+        doc.add_paragraph(f"Classification: CONFIDENTIAL - FOR CLIENT USE ONLY")
         
-        # Risk Assessment
-        doc.add_heading('Risk Assessment', level=2)
-        doc.add_paragraph(f"Risk Level: {risk.get('level', 'UNKNOWN')}")
-        doc.add_paragraph(f"Risk Score: {risk.get('score', 0)}/100")
-        doc.add_paragraph(f"Recommendation: {risk.get('recommendation', 'N/A')}")
+        doc.add_paragraph()
         
         # Executive Summary
-        doc.add_heading('Executive Summary', level=2)
-        doc.add_paragraph(f"Data sources queried: {summary.get('total_data_sources_queried', 0)}")
-        doc.add_paragraph(f"Successful queries: {summary.get('successful_queries', 0)}")
-        doc.add_paragraph(f"Related entities identified: {summary.get('related_entities_found', 0)}")
-        doc.add_paragraph(f"Red flags identified: {summary.get('red_flags_count', 0)}")
+        doc.add_heading('EXECUTIVE SUMMARY', level=1)
         
-        # Red Flags
-        red_flags = findings.get('red_flags', [])
-        doc.add_heading('Red Flags', level=2)
+        level = risk.get('level', 'UNKNOWN')
+        score = risk.get('score', 0)
+        signal = risk.get('invest_signal', 'UNKNOWN')
+        rec = risk.get('recommendation', '')
+        
+        exec_para = doc.add_paragraph()
+        exec_para.add_run(f"RISK ASSESSMENT: {level}\n").bold = True
+        exec_para.add_run(f"RISK SCORE: {score:.0f}/100\n")
+        exec_para.add_run(f"INVESTMENT SIGNAL: {signal}\n").bold = True
+        exec_para.add_run(f"\nRECOMMENDATION: {rec}")
+        
+        doc.add_paragraph()
+        
+        # Risk Matrix Table
+        doc.add_heading('RISK MATRIX', level=1)
+        
+        table = doc.add_table(rows=1, cols=3)
+        table.style = 'Table Grid'
+        header_cells = table.rows[0].cells
+        header_cells[0].text = 'Category'
+        header_cells[1].text = 'Score'
+        header_cells[2].text = 'Assessment'
+        
+        for cat, score_val in risk_scores.items():
+            row_cells = table.add_row().cells
+            row_cells[0].text = cat
+            row_cells[1].text = str(score_val)
+            if score_val >= 60:
+                row_cells[2].text = 'HIGH RISK'
+            elif score_val >= 40:
+                row_cells[2].text = 'ELEVATED'
+            elif score_val >= 25:
+                row_cells[2].text = 'MODERATE'
+            else:
+                row_cells[2].text = 'LOW'
+        
+        doc.add_paragraph()
+        
+        # Critical Findings
         if red_flags:
+            doc.add_heading('CRITICAL FINDINGS', level=1)
+            
             for flag in red_flags:
-                doc.add_paragraph(f"[{flag.get('severity', 'MEDIUM')}] {flag.get('category', 'General')}: {flag.get('description', '')}")
-        else:
-            doc.add_paragraph("No significant red flags identified.")
+                doc.add_heading(f"[{flag.get('severity', 'MEDIUM')}] {flag.get('category', 'General')}", level=2)
+                
+                finding_para = doc.add_paragraph()
+                finding_para.add_run("Finding: ").bold = True
+                finding_para.add_run(flag.get('finding', ''))
+                
+                impact_para = doc.add_paragraph()
+                impact_para.add_run("Business Impact: ").bold = True
+                impact_para.add_run(flag.get('so_what', ''))
+                
+                action_para = doc.add_paragraph()
+                action_para.add_run("Recommended Action: ").bold = True
+                action_para.add_run(flag.get('action', ''))
+                
+                doc.add_paragraph()
         
-        # Related Entities
-        related = findings.get('related_entities', [])
-        doc.add_heading('Related Entities & Connections', level=2)
-        if related:
-            for rel in related:
-                doc.add_paragraph(f"{rel.get('type', 'Connection')}: {rel.get('description', '')}")
-        else:
-            doc.add_paragraph("No significant connections identified.")
+        # Intelligence Analysis
+        doc.add_heading('INTELLIGENCE ANALYSIS', level=1)
+        
+        news_data = findings.get('data_sources', {}).get('news_search', {})
+        if isinstance(news_data, dict):
+            articles = news_data.get('articles', [])
+            adverse = news_data.get('adverse_media', [])
+            
+            if adverse:
+                doc.add_heading('Adverse Media Coverage', level=2)
+                for article in adverse[:10]:
+                    para = doc.add_paragraph()
+                    para.add_run(f"• {article.get('title', 'Unknown')}\n").bold = True
+                    para.add_run(f"  Source: {article.get('domain', 'Unknown')} | Date: {article.get('date', 'Unknown')}\n")
+                    if article.get('url'):
+                        para.add_run(f"  Link: {article.get('url', '')}")
+                    doc.add_paragraph()
         
         # Data Sources
-        doc.add_heading('Data Sources Consulted', level=2)
-        for source, data in findings.get('data_sources', {}).items():
-            if isinstance(data, dict) and 'error' in data:
-                doc.add_paragraph(f"{source}: Error - {data['error']}")
-            elif isinstance(data, list):
-                doc.add_paragraph(f"{source}: {len(data)} records")
-            else:
-                doc.add_paragraph(f"{source}: Data retrieved")
+        doc.add_heading('DATA SOURCES CONSULTED', level=1)
         
-        # Confidential notice
+        sources = [
+            "SEC EDGAR (Securities and Exchange Commission filings)",
+            "Federal Court Records (CourtListener/RECAP)",
+            "FEC (Federal Election Commission political donations)",
+            "GDELT Global News Database",
+            "OpenSanctions (Global sanctions and watchlists)",
+            "LinkedIn Company Intelligence",
+            "State Corporate Registries"
+        ]
+        
+        for source in sources:
+            doc.add_paragraph(f"• {source}")
+        
         doc.add_paragraph()
-        notice = doc.add_paragraph("CONFIDENTIAL - FOR AUTHORIZED USE ONLY")
-        notice.alignment = WD_ALIGN_PARAGRAPH.CENTER
         
-        # Save to Desktop
-        safe_name = target.replace(' ', '_').replace(',', '')[:30]
+        # Disclaimer
+        doc.add_heading('DISCLAIMER', level=1)
+        disclaimer = doc.add_paragraph()
+        disclaimer.add_run(
+            "This report is provided for informational purposes only and does not constitute legal, financial, or investment advice. "
+            "Black Widow Global makes no warranties regarding the completeness or accuracy of this information. "
+            "All information is derived from publicly available sources. Recipients should independently verify all findings "
+            "before making business decisions. This report is confidential and intended solely for the use of the client."
+        )
+        
+        doc.add_paragraph()
+        doc.add_paragraph()
+        
+        # Footer
+        footer = doc.add_paragraph()
+        footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        footer.add_run("BLACK WIDOW GLOBAL | Corporate Intelligence & Investigative Due Diligence").bold = True
+        footer.add_run(f"\nReport Generated: {datetime.now().strftime('%B %d, %Y at %I:%M %p')}")
+        
+        # Save
+        safe_name = target.replace(' ', '_').replace(',', '').replace('.', '')[:30]
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = f"{safe_name}_{timestamp}.docx"
+        filename = f"Intel_Report_{safe_name}_{timestamp}.docx"
         filepath = os.path.join(self.output_dir, filename)
         doc.save(filepath)
         
-        print(f"\n[+] Word report saved: {filepath}")
         return filepath
     
-    def _generate_txt(self, findings, output_path):
-        """Fallback to text if docx not available"""
+    def _generate_txt(self, findings):
         target = findings.get('target', 'Unknown')
         summary = findings.get('summary', {})
         risk = summary.get('risk_assessment', {})
         
-        lines = []
-        lines.append("=" * 70)
-        lines.append("BLACK WIDOW GLOBAL - INTELLIGENCE DOSSIER")
-        lines.append("=" * 70)
-        lines.append(f"Subject: {target}")
-        lines.append(f"Risk Level: {risk.get('level', 'UNKNOWN')}")
-        lines.append(f"Risk Score: {risk.get('score', 0)}/100")
-        lines.append("=" * 70)
+        lines = [
+            "=" * 70,
+            "BLACK WIDOW GLOBAL - CONFIDENTIAL INTELLIGENCE DOSSIER",
+            "=" * 70,
+            f"Subject: {target}",
+            f"Date: {self.report_date}",
+            f"Risk Level: {risk.get('level', 'UNKNOWN')}",
+            f"Risk Score: {risk.get('score', 0):.0f}/100",
+            f"Investment Signal: {risk.get('invest_signal', 'UNKNOWN')}",
+            "=" * 70,
+        ]
         
-        with open(output_path, 'w') as f:
+        safe_name = target.replace(' ', '_')[:30]
+        filepath = os.path.join(self.output_dir, f"Intel_Report_{safe_name}_{datetime.now().strftime('%Y%m%d')}.txt")
+        
+        with open(filepath, 'w') as f:
             f.write('\n'.join(lines))
-        return output_path
+        
+        return filepath
